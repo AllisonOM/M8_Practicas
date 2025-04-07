@@ -10,17 +10,18 @@
     tools:context=".ui.MainActivity">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvGames"
+        android:id="@+id/rvAutos"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_gravity="center_vertical|center_horizontal" />
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:contentDescription="@string/rv_autos_description" />
 
     <TextView
         android:id="@+id/tvSinRegistros"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical|center_horizontal"
-        android:text="¡No hay registros!"
+        android:text="@string/no_registers"
         android:textSize="25sp"
         android:visibility="invisible" />
 
@@ -32,7 +33,7 @@
         android:layout_marginBottom="16dp"
         android:backgroundTint="#00509D"
         android:clickable="true"
-        android:contentDescription="Agregrar elemento"
+        android:contentDescription="@string/add_element"
         android:focusable="true"
         android:onClick="click"
         app:srcCompat="@drawable/ic_add"

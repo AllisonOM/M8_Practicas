@@ -14,6 +14,7 @@ import com.example.apppractica1.application.AutosBDApp
 import com.example.apppractica1.data.AutoRepository
 import com.example.apppractica1.data.db.model.AutoEntity
 import com.example.apppractica1.databinding.ActivityMainBinding
+import com.google.android.material.snackbar.Snackbar
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
@@ -32,36 +33,30 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-//        enableEdgeToEdge()
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-//        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-//            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-//            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-//            insets
-//        }
 
         repository = (application as AutosBDApp).repository
 
         autoAdapter = AutoAdapter { selectedAuto ->
             // Click a un registro de auto
-//            Toast.makeText(
-//                this,
-//                "Click en el auto ${selectedAuto.brand}",
-//                Toast.LENGTH_SHORT
-//            ).show()
-
-            val dialog = AutoDialog(newAuto = false, auto = selectedAuto) {
-                updateUI()
-            }
+            val dialog = AutoDialog(
+                newAuto = false,
+                auto = selectedAuto,
+                updateUI = {
+                    updateUI()
+                },
+                message = { text ->
+                    message(text)
+                })
 
             dialog.show(supportFragmentManager, "dialog2")
 
         }
 
         binding.apply {
-            rvGames.layoutManager = LinearLayoutManager(this@MainActivity)
-            rvGames.adapter = autoAdapter
+            rvAutos.layoutManager = LinearLayoutManager(this@MainActivity)
+            rvAutos.adapter = autoAdapter
         }
 
         updateUI()
@@ -81,23 +76,23 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun click(view: View){
-//        val auto = AutoEntity(
-//            brand = "Kia",
-//            model = "Rio",
-//            color = "Gray",
-//            year = "2019"
-//        )
-//
-//        lifecycleScope.launch(Dispatchers.IO) {
-//            repository.insertAuto(auto)
-//        }
-//
-//        updateUI()
-
         // Mostrar el dialogo
-        val dialog = AutoDialog{
-            updateUI()
-        }
+        val dialog = AutoDialog(
+            updateUI = {
+                updateUI()
+            },
+            message = { text ->
+                message(text)
+            }
+        )
         dialog.show(supportFragmentManager, "dialog1")
     }
+
+    private fun message(text: String) {
+        Snackbar.make(binding.main, text, Snackbar.LENGTH_SHORT)
+            .setTextColor(getColor(R.color.white))
+            .setBackgroundTint(getColor(R.color.status_bar))
+            .show()
+    }
+
 }

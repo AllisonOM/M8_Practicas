@@ -31,18 +31,18 @@
                 android:outlineProvider="bounds"
                 android:padding="4dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/gamepad"
+                android:src="@drawable/autoicono"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/tvTitle"
+                android:id="@+id/tvBrand"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
-                android:textColor="#FF0000"
+                android:textColor="#00509D"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -50,38 +50,53 @@
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@+id/ivIcon"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.16"
-                tools:text="Título del juego" />
+                app:layout_constraintVertical_bias="0.12"
+                tools:text="@string/tvBrand" />
 
             <TextView
-                android:id="@+id/tvGenre"
+                android:id="@+id/tvModel"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginEnd="8dp"
                 android:textSize="14sp"
+                android:textStyle="italic"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@id/ivIcon"
-                app:layout_constraintTop_toBottomOf="@id/tvTitle"
-                app:layout_constraintVertical_bias="0.2"
-                tools:text="Género" />
+                app:layout_constraintTop_toBottomOf="@id/tvBrand"
+                app:layout_constraintVertical_bias="0.15"
+                tools:text="@string/tvModel" />
 
             <TextView
-                android:id="@+id/tvDeveloper"
+                android:id="@+id/tvYear"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="16dp"
-                android:layout_marginBottom="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="8dp"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/tvColor"
+                app:layout_constraintStart_toEndOf="@id/ivIcon"
+                app:layout_constraintTop_toBottomOf="@id/tvModel"
+                app:layout_constraintVertical_bias="0.4"
+                tools:text="@string/tvYear" />
+
+            <TextView
+                android:id="@+id/tvColor"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="8dp"
                 android:gravity="end"
-                android:textSize="16sp"
-                android:textStyle="italic"
+                android:textSize="12sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@id/ivIcon"
-                app:layout_constraintTop_toBottomOf="@id/tvGenre"
-                tools:text="Developer" />
+                app:layout_constraintStart_toEndOf="@id/tvYear"
+                app:layout_constraintTop_toBottomOf="@id/tvModel"
+                app:layout_constraintVertical_bias="0.4"
+                tools:text="@string/tvColor" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>

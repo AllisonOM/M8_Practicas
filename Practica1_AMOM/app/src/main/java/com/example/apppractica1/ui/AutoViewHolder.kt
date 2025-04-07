@@ -11,10 +11,10 @@ class AutoViewHolder(
 
     fun bind(auto: AutoEntity) {
         binding.apply {
-            tvTitle.text = auto.brand
-            tvGenre.text = auto.model
-            tvDeveloper.text = auto.color
-//            tvTitle.text = auto.year
+            tvBrand.text = auto.brand
+            tvModel.text = auto.model
+            tvColor.text = auto.color
+            tvYear.text = auto.year
         }
     }
 
