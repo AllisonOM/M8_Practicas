@@ -3,5 +3,8 @@
     <style name="Base.Theme.AppPractica2" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="android:windowSplashScreenBackground">#141A31</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/logo</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">#949494</item>
     </style>
 </resources>
