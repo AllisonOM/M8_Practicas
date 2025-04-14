@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
                     message(text)
                 })
 
-            dialog.show(supportFragmentManager, "dialog2")
+            dialog.show(supportFragmentManager, getString(R.string.dialog2))
 
         }
 
@@ -85,7 +85,7 @@ class MainActivity : AppCompatActivity() {
                 message(text)
             }
         )
-        dialog.show(supportFragmentManager, "dialog1")
+        dialog.show(supportFragmentManager, getString(R.string.dialog1))
     }
 
     private fun message(text: String) {

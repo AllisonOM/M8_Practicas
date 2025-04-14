@@ -26,4 +26,6 @@
     <string name="accept">Aceptar</string>
     <string name="delete_auto_confirm">¿Realmente deseas eliminar el auto %s?</string>
     <string name="confirmation">Confirmación</string>
+    <string name="dialog1">dialog1</string>
+    <string name="dialog2">dialog2</string>
 </resources>

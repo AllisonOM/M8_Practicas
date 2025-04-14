@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background_page">#747474</color>
+    <color name="background_section">#1E2746</color>
+    <color name="titles">#CBD5ED</color>
+    <color name="secondTitles">#4A5B82</color>
+    <color name="charger">#141A31</color>
+</resources>
