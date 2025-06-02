@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.lifecycle.lifecycleScope
 import com.bumptech.glide.Glide
 import com.example.apppractica2.R
@@ -14,6 +15,7 @@ import com.example.apppractica2.data.AutoRepository
 import com.example.apppractica2.databinding.FragmentAutosDetailBinding
 import com.example.apppractica2.databinding.FragmentAutosListBinding
 import com.example.apppractica2.utils.Constants
+import com.example.apppractica2.utils.isNetworkAvailable
 import kotlinx.coroutines.launch
 
 private const val ARG_AUTOID = "id"
@@ -50,6 +52,12 @@ class AutosDetailFragment : Fragment() {
         repository = (requireActivity().application as AutoRFApp).repository
 
         lifecycleScope.launch {
+            if (!isNetworkAvailable(requireContext())) {
+                Toast.makeText(requireContext(), R.string.connection_error, Toast.LENGTH_SHORT).show()
+                binding.pbLoading.visibility = View.GONE
+                return@launch
+            }
+
             try {
                 val autoDetail = repository.getAutosDetailApiary(autoId)
                 binding.apply {
