@@ -12,6 +12,9 @@ import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.Abs
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
 
 private const val ARG_VIDEO_URL = "video_url"
+private const val YT_PARAM_V = "v="
+private const val YT_PARAM_SHORT = "youtu.be/"
+private const val YT_PARAM_EMBED = "embed/"
 
 class AutosVideoFragment : Fragment() {
 
@@ -85,9 +88,9 @@ class AutosVideoFragment : Fragment() {
 
         fun extractYoutubeVideoId(url: String): String? {
             return when {
-                "v=" in url -> url.substringAfter("v=").substringBefore("&")
-                "youtu.be/" in url -> url.substringAfter("youtu.be/").substringBefore("?")
-                "embed/" in url -> url.substringAfter("embed/").substringBefore("?")
+                YT_PARAM_V in url -> url.substringAfter(YT_PARAM_V).substringBefore("&")
+                YT_PARAM_SHORT in url -> url.substringAfter(YT_PARAM_SHORT).substringBefore("?")
+                YT_PARAM_EMBED in url -> url.substringAfter(YT_PARAM_EMBED).substringBefore("?")
                 else -> null
             }
         }

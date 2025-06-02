@@ -72,7 +72,7 @@ class AutosListFragment : Fragment() {
                 }
 
             } catch (_: Exception) {
-                
+
             } finally {
                 binding.pbLoading.visibility = View.GONE
             }

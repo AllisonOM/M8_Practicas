@@ -77,7 +77,7 @@ class AutosDetailFragment : Fragment() {
                 }
 
             } catch (e: Exception) {
-                Log.e("AutosDetail", "Error al cargar detalles", e)
+                Log.e(Constants.AD, getString(R.string.error_details), e)
             } finally {
                 binding.pbLoading.visibility = View.GONE
             }
