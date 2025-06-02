@@ -1,26 +1,22 @@
 [
     {
-        "merged": "/Users/allisono/.gradle/daemon/8.11.1/com.example.apppractica2.app-mergeDebugResources-55:/layout/auto_element.xml",
-        "source": "/Users/allisono/.gradle/daemon/8.11.1/com.example.apppractica2.app-main-58:/layout/auto_element.xml"
-    },
-    {
-        "merged": "/Users/allisono/.gradle/daemon/8.11.1/com.example.apppractica2.app-mergeDebugResources-55:/layout/fragment_autos_video.xml",
-        "source": "/Users/allisono/.gradle/daemon/8.11.1/com.example.apppractica2.app-main-58:/layout/fragment_autos_video.xml"
-    },
-    {
-        "merged": "/Users/allisono/.gradle/daemon/8.11.1/com.example.apppractica2.app-mergeDebugResources-55:/layout/fragment_autos_list.xml",
-        "source": "/Users/allisono/.gradle/daemon/8.11.1/com.example.apppractica2.app-main-58:/layout/fragment_autos_list.xml"
-    },
-    {
-        "merged": "/Users/allisono/.gradle/daemon/8.11.1/com.example.apppractica2.app-mergeDebugResources-55:/layout/fragment_autos_detail.xml",
-        "source": "/Users/allisono/.gradle/daemon/8.11.1/com.example.apppractica2.app-main-58:/layout/fragment_autos_detail.xml"
+        "merged": "com.example.apppractica2.app-mergeDebugResources-55:/layout/fragment_autos_video.xml",
+        "source": "com.example.apppractica2.app-main-58:/layout/fragment_autos_video.xml"
     },
     {
         "merged": "com.example.apppractica2.app-mergeDebugResources-55:/layout/activity_main.xml",
         "source": "com.example.apppractica2.app-main-58:/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/allisono/.gradle/daemon/8.11.1/com.example.apppractica2.app-mergeDebugResources-55:/layout/activity_main.xml",
-        "source": "/Users/allisono/.gradle/daemon/8.11.1/com.example.apppractica2.app-main-58:/layout/activity_main.xml"
+        "merged": "com.example.apppractica2.app-mergeDebugResources-55:/layout/fragment_autos_list.xml",
+        "source": "com.example.apppractica2.app-main-58:/layout/fragment_autos_list.xml"
+    },
+    {
+        "merged": "com.example.apppractica2.app-mergeDebugResources-55:/layout/fragment_autos_detail.xml",
+        "source": "com.example.apppractica2.app-main-58:/layout/fragment_autos_detail.xml"
+    },
+    {
+        "merged": "com.example.apppractica2.app-mergeDebugResources-55:/layout/auto_element.xml",
+        "source": "com.example.apppractica2.app-main-58:/layout/auto_element.xml"
     }
 ]

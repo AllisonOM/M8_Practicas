@@ -50,10 +50,10 @@ com.example.apppractica2.app-media3-ui-1.7.1-48 /Users/allisono/.gradle/caches/8
 com.example.apppractica2.app-activity-1.10.1-49 /Users/allisono/.gradle/caches/8.11.1/transforms/fbe7fdbae1cd3f2f542bfc2454a5ecaa/transformed/activity-1.10.1/res
 com.example.apppractica2.app-fragment-ktx-1.6.2-50 /Users/allisono/.gradle/caches/8.11.1/transforms/ff856a55253fe52bb46d8a29d7a957c6/transformed/fragment-ktx-1.6.2/res
 com.example.apppractica2.app-media3-exoplayer-1.7.1-51 /Users/allisono/.gradle/caches/8.11.1/transforms/ff94fd977e30ab3e1ac50729804e567e/transformed/media3-exoplayer-1.7.1/res
-com.example.apppractica2.app-pngs-52 /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/build/generated/res/pngs/debug
-com.example.apppractica2.app-resValues-53 /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/build/generated/res/resValues/debug
-com.example.apppractica2.app-packageDebugResources-54 /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.example.apppractica2.app-packageDebugResources-55 /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-com.example.apppractica2.app-debug-56 /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/build/intermediates/merged_res/debug/mergeDebugResources
-com.example.apppractica2.app-debug-57 /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/debug/res
-com.example.apppractica2.app-main-58 /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/res
+com.example.apppractica2.app-pngs-52 /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/build/generated/res/pngs/debug
+com.example.apppractica2.app-resValues-53 /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/build/generated/res/resValues/debug
+com.example.apppractica2.app-packageDebugResources-54 /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.example.apppractica2.app-packageDebugResources-55 /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.example.apppractica2.app-debug-56 /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.example.apppractica2.app-debug-57 /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/debug/res
+com.example.apppractica2.app-main-58 /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/res

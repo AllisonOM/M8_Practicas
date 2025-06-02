@@ -16,6 +16,8 @@ import com.example.apppractica2.databinding.FragmentAutosListBinding
 import com.example.apppractica2.ui.adapters.AutoAdapter
 import com.example.apppractica2.utils.Constants
 import kotlinx.coroutines.launch
+import com.example.apppractica2.utils.isNetworkAvailable
+
 
 class AutosListFragment : Fragment() {
 
@@ -41,6 +43,12 @@ class AutosListFragment : Fragment() {
         repository = (requireActivity().application as AutoRFApp).repository
 
         lifecycleScope.launch {
+            if (!isNetworkAvailable(requireContext())) {
+                Toast.makeText(requireContext(), R.string.connection_error, Toast.LENGTH_SHORT).show()
+                binding.pbLoading.visibility = View.GONE
+                return@launch
+            }
+
             try {
                 val autos = repository.getAutosApiary()
 
@@ -63,13 +71,8 @@ class AutosListFragment : Fragment() {
                     }
                 }
 
-            } catch (e: Exception) {
-
-                Toast.makeText(requireContext(),
-                    getString(R.string.connection_error),
-                    Toast.LENGTH_SHORT
-                )
-                    .show()
+            } catch (_: Exception) {
+                
             } finally {
                 binding.pbLoading.visibility = View.GONE
             }

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:2:1-32:12
+ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:2:1-32:12
 MERGED from [androidx.databinding:viewbinding:8.9.1] /Users/allisono/.gradle/caches/8.11.1/transforms/1aeea294a65a28eb4610e72a377dfa4b/transformed/viewbinding-8.9.1/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-common:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/764d2ea77612b690643eaa9a4a4f2dcd/transformed/navigation-common-2.8.9/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common-ktx:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/7d97361f792255ff6dc233d7f81bc0ec/transformed/navigation-common-ktx-2.8.9/AndroidManifest.xml:2:1-7:12
@@ -81,23 +81,23 @@ MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/allisono/
 MERGED from [com.makeramen:roundedimageview:2.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/0c33ef125264c6ad8719689bd00ac630/transformed/roundedimageview-2.3.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.android.support:exifinterface:27.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/53c2c558e4c6c9e14aba5744762e0400/transformed/exifinterface-27.1.0/AndroidManifest.xml:17:1-22:12
 	package
-		INJECTED from /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:3:5-51
+		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:6:5-66
+ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:6:5-66
 MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/aaf0c8731455f726cc542c461175f255/transformed/core-12.1.0/AndroidManifest.xml:7:5-67
 MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/aaf0c8731455f726cc542c461175f255/transformed/core-12.1.0/AndroidManifest.xml:7:5-67
 	android:name
-		ADDED from /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:6:22-64
+		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:6:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:8:5-78
+ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:8:5-78
 MERGED from [androidx.media3:media3-common:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/a2c20e7c4989307b2986e520c3807089/transformed/media3-common-1.7.1/AndroidManifest.xml:22:5-79
 MERGED from [androidx.media3:media3-common:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/a2c20e7c4989307b2986e520c3807089/transformed/media3-common-1.7.1/AndroidManifest.xml:22:5-79
 MERGED from [androidx.media3:media3-exoplayer:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/ff94fd977e30ab3e1ac50729804e567e/transformed/media3-exoplayer-1.7.1/AndroidManifest.xml:22:5-79
@@ -105,10 +105,10 @@ MERGED from [androidx.media3:media3-exoplayer:1.7.1] /Users/allisono/.gradle/cac
 MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/aaf0c8731455f726cc542c461175f255/transformed/core-12.1.0/AndroidManifest.xml:8:5-79
 MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/aaf0c8731455f726cc542c461175f255/transformed/core-12.1.0/AndroidManifest.xml:8:5-79
 	android:name
-		ADDED from /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:8:22-76
+		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:8:22-76
 application
-ADDED from /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:10:5-30:19
-INJECTED from /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:10:5-30:19
+ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:10:5-30:19
+INJECTED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:10:5-30:19
 MERGED from [com.google.android.material:material:1.12.0] /Users/allisono/.gradle/caches/8.11.1/transforms/d7867da99501dace5901e102948336ea/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] /Users/allisono/.gradle/caches/8.11.1/transforms/d7867da99501dace5901e102948336ea/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/1a61b55e0894ccacdf185542e9cf65c5/transformed/constraintlayout-2.2.1/AndroidManifest.xml:7:5-20
@@ -130,49 +130,49 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/allisono/.gradle/cac
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4fa6389c8930b222eb77398f9cdc4a69/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4fa6389c8930b222eb77398f9cdc4a69/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 	android:extractNativeLibs
-		INJECTED from /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/46985ca6f9415910f2d90154e706cdae/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:18:9-35
+		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:18:9-35
 	android:label
-		ADDED from /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:16:9-41
+		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:16:9-41
 	android:fullBackupContent
-		ADDED from /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:14:9-54
+		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:14:9-54
 	android:roundIcon
-		ADDED from /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:17:9-54
+		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:17:9-54
 	tools:targetApi
-		ADDED from /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:20:9-29
+		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:20:9-29
 	android:icon
-		ADDED from /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:15:9-43
+		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:15:9-43
 	android:allowBackup
-		ADDED from /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:19:9-50
+		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:19:9-50
 	android:dataExtractionRules
-		ADDED from /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:13:9-65
+		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:13:9-65
 	android:name
-		ADDED from /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:12:9-46
+		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:12:9-46
 activity#com.example.apppractica2.ui.MainActivity
-ADDED from /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:21:9-29:20
+ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:21:9-29:20
 	android:exported
-		ADDED from /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:23:13-36
+		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:23:13-36
 	android:name
-		ADDED from /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:22:13-44
+		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:22:13-44
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:24:13-28:29
+ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:24:13-28:29
 action#android.intent.action.MAIN
-ADDED from /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:25:17-69
+ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:25:25-66
+		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:27:17-77
+ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:27:27-74
+		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:27:27-74
 uses-sdk
-INJECTED from /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml
-INJECTED from /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml
+INJECTED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml
+INJECTED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:8.9.1] /Users/allisono/.gradle/caches/8.11.1/transforms/1aeea294a65a28eb4610e72a377dfa4b/transformed/viewbinding-8.9.1/AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:viewbinding:8.9.1] /Users/allisono/.gradle/caches/8.11.1/transforms/1aeea294a65a28eb4610e72a377dfa4b/transformed/viewbinding-8.9.1/AndroidManifest.xml:5:5-44
 MERGED from [androidx.navigation:navigation-common:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/764d2ea77612b690643eaa9a4a4f2dcd/transformed/navigation-common-2.8.9/AndroidManifest.xml:20:5-44
@@ -326,9 +326,9 @@ MERGED from [com.makeramen:roundedimageview:2.3.0] /Users/allisono/.gradle/cache
 MERGED from [com.android.support:exifinterface:27.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/53c2c558e4c6c9e14aba5744762e0400/transformed/exifinterface-27.1.0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:exifinterface:27.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/53c2c558e4c6c9e14aba5744762e0400/transformed/exifinterface-27.1.0/AndroidManifest.xml:20:5-44
 	android:targetSdkVersion
-		INJECTED from /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/0165750a35ead6a759bdbf5c604984a6/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/ad87d32e6f605b7c3b5c71f610b427e2/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20

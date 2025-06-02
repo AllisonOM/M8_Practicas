@@ -11,6 +11,7 @@ import android.view.View.GONE
 import android.view.View.VISIBLE
 import android.widget.Button
 import android.widget.RelativeLayout
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
@@ -85,12 +86,9 @@ class MainActivity : AppCompatActivity() {
             internetLayout.visibility = VISIBLE
             noInternetLayout.visibility = GONE
 
-            // Fragment solo si no ha sido cargado antes
-            if (supportFragmentManager.findFragmentById(R.id.fragment_container) == null) {
-                supportFragmentManager.beginTransaction()
-                    .replace(R.id.fragment_container, AutosListFragment())
-                    .commit()
-            }
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.fragment_container, AutosListFragment())
+                .commit()
 
         } else {
             noInternetLayout.visibility = VISIBLE

@@ -10,12 +10,12 @@
 10
 11    <!-- Permiso para acceder a internet -->
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->/Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:6:5-66
-12-->/Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:6:22-64
+12-->/Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:6:5-66
+12-->/Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:6:22-64
 13    <!-- Permiso para acceder al estado de la red -->
 14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-14-->/Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:8:5-78
-14-->/Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:8:22-76
+14-->/Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:8:5-78
+14-->/Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:8:22-76
 15
 16    <permission
 16-->[androidx.core:core:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/46985ca6f9415910f2d90154e706cdae/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
@@ -29,45 +29,45 @@
 20-->[androidx.core:core:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/46985ca6f9415910f2d90154e706cdae/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
 21
 22    <application
-22-->/Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:10:5-30:19
+22-->/Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:10:5-30:19
 23        android:name="com.example.apppractica2.application.AutoRFApp"
-23-->/Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:12:9-46
+23-->/Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:12:9-46
 24        android:allowBackup="true"
-24-->/Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:11:9-35
+24-->/Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:11:9-35
 25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 25-->[androidx.core:core:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/46985ca6f9415910f2d90154e706cdae/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
 26        android:dataExtractionRules="@xml/data_extraction_rules"
-26-->/Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:13:9-65
+26-->/Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:13:9-65
 27        android:debuggable="true"
 28        android:extractNativeLibs="false"
 29        android:fullBackupContent="@xml/backup_rules"
-29-->/Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:14:9-54
+29-->/Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:14:9-54
 30        android:icon="@mipmap/ic_launcher"
-30-->/Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:15:9-43
+30-->/Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:15:9-43
 31        android:label="@string/app_name"
-31-->/Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:16:9-41
+31-->/Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:16:9-41
 32        android:roundIcon="@mipmap/ic_launcher_round"
-32-->/Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:17:9-54
+32-->/Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:17:9-54
 33        android:supportsRtl="true"
-33-->/Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:18:9-35
+33-->/Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:18:9-35
 34        android:testOnly="true"
 35        android:theme="@style/Theme.AppPractica2" >
-35-->/Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:19:9-50
+35-->/Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:19:9-50
 36        <activity
-36-->/Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:21:9-29:20
+36-->/Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:21:9-29:20
 37            android:name="com.example.apppractica2.ui.MainActivity"
-37-->/Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:22:13-44
+37-->/Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:22:13-44
 38            android:exported="true" >
-38-->/Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:23:13-36
+38-->/Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:23:13-36
 39            <intent-filter>
-39-->/Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:24:13-28:29
+39-->/Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:24:13-28:29
 40                <action android:name="android.intent.action.MAIN" />
-40-->/Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:25:17-69
-40-->/Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:25:25-66
+40-->/Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:25:17-69
+40-->/Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:25:25-66
 41
 42                <category android:name="android.intent.category.LAUNCHER" />
-42-->/Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:27:17-77
-42-->/Users/allisono/Documents/Diplomado/Module8/DM_M6_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:27:27-74
+42-->/Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:27:17-77
+42-->/Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:27:27-74
 43            </intent-filter>
 44        </activity>
 45
