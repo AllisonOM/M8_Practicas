@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_page">#747474</color>
+    <color name="background_section">#1E2746</color>
+    <color name="black">#FF000000</color>
+    <color name="charger">#141A31</color>
+    <color name="ic_launcher_background">#949494</color>
+    <color name="secondTitles">#4A5B82</color>
+    <color name="titles">#CBD5ED</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="accelerationD">Aceleración:</string>
+    <string name="app_name">App Practica 2</string>
+    <string name="back">Regresar</string>
+    <string name="brand">Brand</string>
+    <string name="brandD">Marca:</string>
+    <string name="connection_error">Error en la conexión</string>
+    <string name="drivetrainD">Transmisión:</string>
+    <string name="engineD">Motor:</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="log_click_auto">Click en el juego %s</string>
+    <string name="model">Model</string>
+    <string name="modelD">Modelo:</string>
+    <string name="name">Name</string>
+    <string name="no_internet">Sin conexión a internet</string>
+    <string name="powerD">Caballos:</string>
+    <string name="text">[Text]</string>
+    <string name="text_no_internet">Comprueba tu conexión a Internet y vuelve a intentarlo</string>
+    <string name="title">Title</string>
+    <string name="topSpeedD">Velocidad máxima:</string>
+    <string name="try_again">Intentar nuevamente</string>
+    <string name="versionD">Versión:</string>
+    <string name="video">Ver video</string>
+    <style name="Base.Theme.AppPractica2" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+        
+        <item name="android:windowSplashScreenBackground">#141A31</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/logo</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">#949494</item>
+    </style>
+    <style name="Theme.AppPractica2" parent="Base.Theme.AppPractica2"/>
+</resources>
