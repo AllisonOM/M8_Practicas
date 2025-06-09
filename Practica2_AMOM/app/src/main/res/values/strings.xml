@@ -67,4 +67,6 @@
     <string name="understood_button">Entendido</string>
     <string name="exit_button">Salir</string>
     <string name="location_permission_denied">El permiso de ubicación se ha negado permanentemente</string>
+    <string name="regresar">Regresar</string>
+    <string name="mi_ubicacion">Mi ubicación</string>
 </resources>

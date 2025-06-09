@@ -12,11 +12,16 @@ import androidx.appcompat.app.AlertDialog
 import android.widget.Toast
 import androidx.core.content.ContextCompat
 import android.content.pm.PackageManager
+import android.widget.ImageButton
+import com.example.apppractica2.databinding.ActivityMainBinding
+import com.example.apppractica2.databinding.ActivityMapBinding
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 
 class MapActivity : AppCompatActivity(), OnMapReadyCallback {
+
+    private lateinit var binding: ActivityMapBinding
 
     // Permiso de localización
     private var fineLocationPermissionGranted = false
@@ -58,11 +63,16 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_map)
+        binding = ActivityMapBinding.inflate(layoutInflater)
+        setContentView(binding.root)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
+        }
+
+        binding.btnBack.setOnClickListener {
+            onBackPressedDispatcher.onBackPressed() // Usamos esto en lugar de parentFragmentManager
         }
 
         val mapFragment = supportFragmentManager.findFragmentById(R.id.map) as SupportMapFragment
