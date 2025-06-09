@@ -1,5 +1,6 @@
 package com.example.apppractica2.ui.fragments
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
@@ -14,8 +15,9 @@ import com.example.apppractica2.application.AutoRFApp
 import com.example.apppractica2.data.AutoRepository
 import com.example.apppractica2.databinding.FragmentAutosDetailBinding
 import com.example.apppractica2.databinding.FragmentAutosListBinding
+import com.example.apppractica2.ui.MapActivity
 import com.example.apppractica2.utils.Constants
-import com.example.apppractica2.utils.isNetworkAvailable
+import com.example.apppractica2.utils.NetworkUtils
 import kotlinx.coroutines.launch
 
 private const val ARG_AUTOID = "id"
@@ -52,7 +54,7 @@ class AutosDetailFragment : Fragment() {
         repository = (requireActivity().application as AutoRFApp).repository
 
         lifecycleScope.launch {
-            if (!isNetworkAvailable(requireContext())) {
+            if (!NetworkUtils.isNetworkAvailable(requireContext())) {
                 Toast.makeText(requireContext(), R.string.connection_error, Toast.LENGTH_SHORT).show()
                 binding.pbLoading.visibility = View.GONE
                 return@launch
@@ -81,6 +83,11 @@ class AutosDetailFragment : Fragment() {
                             .replace(R.id.fragment_container, videoFragment)
                             .addToBackStack(null)
                             .commit()
+                    }
+
+                    btnMap.setOnClickListener {
+                        val intent = Intent(requireContext(), MapActivity::class.java)
+                        startActivity(intent)
                     }
                 }
 

@@ -72,6 +72,7 @@ string brandD
 string connection_error
 string drivetrainD
 string engineD
+string error_details
 string hello_blank_fragment
 string log_click_auto
 string model

@@ -15,8 +15,8 @@ import com.example.apppractica2.data.AutoRepository
 import com.example.apppractica2.databinding.FragmentAutosListBinding
 import com.example.apppractica2.ui.adapters.AutoAdapter
 import com.example.apppractica2.utils.Constants
+import com.example.apppractica2.utils.NetworkUtils
 import kotlinx.coroutines.launch
-import com.example.apppractica2.utils.isNetworkAvailable
 
 
 class AutosListFragment : Fragment() {
@@ -39,13 +39,26 @@ class AutosListFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        // Se instancia el repositorio desde la clase AutoRFApp
         repository = (requireActivity().application as AutoRFApp).repository
 
+        // Listener botón "Intentar de nuevo"
+        binding.btnRetry.setOnClickListener {
+            cargarAutos()
+        }
+
+        // Primera carga
+        cargarAutos()
+    }
+
+    private fun cargarAutos() {
+        binding.pbLoading.visibility = View.VISIBLE
+        binding.rvAutos.visibility = View.GONE
+        binding.noInternetLayout.visibility = View.GONE
+
         lifecycleScope.launch {
-            if (!isNetworkAvailable(requireContext())) {
-                Toast.makeText(requireContext(), R.string.connection_error, Toast.LENGTH_SHORT).show()
+            if (!NetworkUtils.isNetworkAvailable(requireContext())) {
                 binding.pbLoading.visibility = View.GONE
+                binding.noInternetLayout.visibility = View.VISIBLE
                 return@launch
             }
 
@@ -55,10 +68,6 @@ class AutosListFragment : Fragment() {
                 binding.rvAutos.apply {
                     layoutManager = LinearLayoutManager(requireContext())
                     adapter = AutoAdapter(autos, requireContext()) { selectedAuto ->
-                        // Click de cada auto
-                        Log.d(Constants.LOGTAG, getString(R.string.log_click_auto, selectedAuto.name))
-
-                        // Se pasa al siguiente fragment con el id del auto seleccionado
                         selectedAuto.id?.let { id ->
                             requireActivity().supportFragmentManager.beginTransaction()
                                 .replace(
@@ -71,7 +80,13 @@ class AutosListFragment : Fragment() {
                     }
                 }
 
-            } catch (_: Exception) {
+                binding.rvAutos.visibility = View.VISIBLE
+                binding.noInternetLayout.visibility = View.GONE
+
+            } catch (e: Exception) {
+                Log.e("AutosListFragment", getString(R.string.log_loading_error), e)
+                Toast.makeText(requireContext(), R.string.error_loading_data, Toast.LENGTH_SHORT).show()
+                binding.noInternetLayout.visibility = View.VISIBLE
 
             } finally {
                 binding.pbLoading.visibility = View.GONE
@@ -79,10 +94,8 @@ class AutosListFragment : Fragment() {
         }
     }
 
-    // Evitar fugas de memoria
     override fun onDestroy() {
         super.onDestroy()
         _binding = null
     }
-
 }

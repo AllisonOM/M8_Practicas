@@ -4278,6 +4278,7 @@ string dest_title
 string drivetrainD
 string engineD
 string error_a11y_label
+string error_details
 string error_icon_content_description
 string exo_controls_cc_disabled_description
 string exo_controls_cc_enabled_description

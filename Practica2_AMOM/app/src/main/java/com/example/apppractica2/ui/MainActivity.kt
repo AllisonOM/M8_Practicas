@@ -20,6 +20,8 @@ import androidx.core.view.WindowInsetsCompat
 import com.example.apppractica2.R
 import com.example.apppractica2.databinding.ActivityMainBinding
 import com.example.apppractica2.ui.fragments.AutosListFragment
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.FirebaseUser
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
@@ -33,6 +35,11 @@ class MainActivity : AppCompatActivity() {
     private lateinit var noInternetLayout: RelativeLayout
     private lateinit var tryAgainButton: Button
 
+    // Para Firebase Auth
+    private lateinit var firebaseAuth: FirebaseAuth
+    private var user: FirebaseUser? = null
+
+    @SuppressLint("DetachAndAttachSameFragment")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
@@ -67,8 +74,20 @@ class MainActivity : AppCompatActivity() {
         drawLayout()
 
         tryAgainButton.setOnClickListener {
-            drawLayout()
+            if (isNetworkAvailable()) {
+                drawLayout()
+                val currentFragment = supportFragmentManager.findFragmentById(R.id.fragment_container)
+                currentFragment?.let {
+                    supportFragmentManager.beginTransaction()
+                        .detach(it)
+                        .attach(it)
+                        .commit()
+                }
+            } else {
+                Toast.makeText(this, R.string.connection_error, Toast.LENGTH_SHORT).show()
+            }
         }
+
 
         // Primera ejecución de la actividad
         if (savedInstanceState == null) {
@@ -78,6 +97,17 @@ class MainActivity : AppCompatActivity() {
                     AutosListFragment()
                 )
                 .commit()
+        }
+
+        // Instanciamos el objeto firebase auth
+        firebaseAuth = FirebaseAuth.getInstance()
+        user = firebaseAuth.currentUser
+
+        binding.btnlogout.setOnClickListener {
+            firebaseAuth.signOut()
+            startActivity(Intent(this, Login::class.java))
+            message(getString(R.string.logout_success))
+            finish()
         }
     }
 

@@ -4277,6 +4277,7 @@ int string dest_title 0x7f120035
 int string drivetrainD 0x7f120036
 int string engineD 0x7f120037
 int string error_a11y_label 0x7f120038
+int string error_details 0x7f1200fd
 int string error_icon_content_description 0x7f120039
 int string exo_controls_cc_disabled_description 0x7f12003a
 int string exo_controls_cc_enabled_description 0x7f12003b
