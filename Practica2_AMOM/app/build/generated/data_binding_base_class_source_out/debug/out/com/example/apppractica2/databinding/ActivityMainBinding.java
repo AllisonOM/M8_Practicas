@@ -24,7 +24,13 @@ public final class ActivityMainBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final ImageView btnlogout;
+
+  @NonNull
   public final FrameLayout fragmentContainer;
+
+  @NonNull
+  public final ConstraintLayout headerLayout;
 
   @NonNull
   public final RelativeLayout internetLayout;
@@ -47,13 +53,16 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final MaterialButton tryAgainButton;
 
-  private ActivityMainBinding(@NonNull ConstraintLayout rootView,
-      @NonNull FrameLayout fragmentContainer, @NonNull RelativeLayout internetLayout,
-      @NonNull ConstraintLayout main, @NonNull TextView noInternetHeading,
-      @NonNull ImageView noInternetImage, @NonNull RelativeLayout noInternetLayout,
-      @NonNull TextView noInternetText, @NonNull MaterialButton tryAgainButton) {
+  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView btnlogout,
+      @NonNull FrameLayout fragmentContainer, @NonNull ConstraintLayout headerLayout,
+      @NonNull RelativeLayout internetLayout, @NonNull ConstraintLayout main,
+      @NonNull TextView noInternetHeading, @NonNull ImageView noInternetImage,
+      @NonNull RelativeLayout noInternetLayout, @NonNull TextView noInternetText,
+      @NonNull MaterialButton tryAgainButton) {
     this.rootView = rootView;
+    this.btnlogout = btnlogout;
     this.fragmentContainer = fragmentContainer;
+    this.headerLayout = headerLayout;
     this.internetLayout = internetLayout;
     this.main = main;
     this.noInternetHeading = noInternetHeading;
@@ -90,9 +99,21 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btnlogout;
+      ImageView btnlogout = ViewBindings.findChildViewById(rootView, id);
+      if (btnlogout == null) {
+        break missingId;
+      }
+
       id = R.id.fragment_container;
       FrameLayout fragmentContainer = ViewBindings.findChildViewById(rootView, id);
       if (fragmentContainer == null) {
+        break missingId;
+      }
+
+      id = R.id.header_layout;
+      ConstraintLayout headerLayout = ViewBindings.findChildViewById(rootView, id);
+      if (headerLayout == null) {
         break missingId;
       }
 
@@ -134,9 +155,9 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, fragmentContainer, internetLayout,
-          main, noInternetHeading, noInternetImage, noInternetLayout, noInternetText,
-          tryAgainButton);
+      return new ActivityMainBinding((ConstraintLayout) rootView, btnlogout, fragmentContainer,
+          headerLayout, internetLayout, main, noInternetHeading, noInternetImage, noInternetLayout,
+          noInternetText, tryAgainButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

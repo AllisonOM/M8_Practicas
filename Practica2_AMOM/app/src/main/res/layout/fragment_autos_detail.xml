@@ -70,10 +70,11 @@
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/btnMap"
-                        android:layout_width="80dp"
+                        android:layout_width="70dp"
                         android:layout_height="wrap_content"
                         app:icon="@drawable/ic_location_on"
-                        app:iconSize="30dp"
+                        app:iconTint="@color/white"
+                        app:iconSize="25dp"
                         android:backgroundTint="#797979"
                         android:contentDescription="@string/abrir_mapa"
                         app:layout_constraintEnd_toEndOf="parent"

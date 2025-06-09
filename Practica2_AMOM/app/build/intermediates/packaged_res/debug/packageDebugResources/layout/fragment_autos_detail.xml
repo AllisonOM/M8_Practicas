@@ -50,16 +50,38 @@
                     app:riv_corner_radius="10dp"
                     tools:src="@mipmap/ic_launcher" />
 
-                <Button
-                    android:id="@+id/btnVideo"
+                <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="30dp"
-                    android:layout_marginVertical="10dp"
-                    android:text="@string/video"
-                    android:backgroundTint="#797979"
-                    android:textColor="#FFFFFF" />
+                    android:paddingHorizontal="30dp"
+                    android:layout_marginVertical="10dp">
 
+                    <Button
+                        android:id="@+id/btnVideo"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/video"
+                        android:backgroundTint="#797979"
+                        android:textColor="#FFFFFF"
+                        android:layout_marginEnd="30dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/btnMap"/>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnMap"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        app:icon="@drawable/ic_location_on"
+                        app:iconTint="@color/white"
+                        app:iconSize="25dp"
+                        android:backgroundTint="#797979"
+                        android:contentDescription="@string/abrir_mapa"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/btnVideo"/>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"

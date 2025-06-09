@@ -24,5 +24,9 @@ data class AutoDetailDto(
     @SerializedName("engine")
     var engine: String? = null,
     @SerializedName("url")
-    var url: String? = null
+    var url: String? = null,
+    @SerializedName("latitude")
+    var latitude: String? = null,
+    @SerializedName("longitude")
+    var longitude: String? = null
 )

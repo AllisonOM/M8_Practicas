@@ -5,11 +5,21 @@
     <color name="black">#FF000000</color>
     <color name="charger">#141A31</color>
     <color name="ic_launcher_background">#949494</color>
+    <color name="onColor">#2A73D6</color>
     <color name="secondTitles">#4A5B82</color>
     <color name="titles">#CBD5ED</color>
     <color name="white">#FFFFFFFF</color>
+    <string name="DADM">© DADM 13a</string>
+    <string name="Email">Correo electrónico</string>
+    <string name="Ingresar">Ingresar</string>
+    <string name="Pwd">Contraseña</string>
+    <string name="Pwd_olvidada">¿Olvidó su contraseña? Restablecer aquí</string>
+    <string name="Registrarse">Registrarse</string>
+    <string name="abrir_mapa">Abrir mapa</string>
     <string name="accelerationD">Aceleración:</string>
     <string name="app_name">App Practica 2</string>
+    <string name="app_pr_ctica_2">App Práctica 2</string>
+    <string name="auto_list_description">Lista de autos disponibles</string>
     <string name="back">Regresar</string>
     <string name="brand">Brand</string>
     <string name="brandD">Marca:</string>
@@ -17,18 +27,66 @@
     <string name="drivetrainD">Transmisión:</string>
     <string name="engineD">Motor:</string>
     <string name="error_details">Error al cargar detalles</string>
+    <string name="error_email_in_use">Error: el correo electrónico ya está en uso con otra cuenta.</string>
+    <string name="error_existing_account_different_credential">Error: Una cuenta ya existe con el mismo correo, pero con diferentes datos de ingreso</string>
+    <string name="error_generic">Error. No se pudo autenticar exitosamente.</string>
+    <string name="error_invalid_email">Error: El correo electrónico no tiene un formato correcto</string>
+    <string name="error_loading_data">Error al cargar los datos</string>
+    <string name="error_no_network">Red no disponible o se interrumpió la conexión</string>
+    <string name="error_password_too_short">La contraseña debe de tener por lo menos 6 caracteres</string>
+    <string name="error_session_expired">Error: La sesión ha expirado. Favor de ingresar nuevamente.</string>
+    <string name="error_user_not_found">Error: No existe el usuario con la información proporcionada.</string>
+    <string name="error_weak_password">La contraseña porporcionada es inválida</string>
+    <string name="error_wrong_password">Error: La contraseña no es válida</string>
+    <string name="exit_button">Salir</string>
+    <string name="extra_latitude_key">COORDENADAS_LATITUDE</string>
+    <string name="extra_longitude_key">COORDENADAS_LONGITUDE</string>
+    <string name="gcm_defaultSenderId" translatable="false">19591446978</string>
+    <string name="google_api_key" translatable="false">AIzaSyBQDcLD7T4L70P4jVGPOslzz1afLGJsLtU</string>
+    <string name="google_app_id" translatable="false">1:19591446978:android:c7f5e7fdd77fa03b44565b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBQDcLD7T4L70P4jVGPOslzz1afLGJsLtU</string>
+    <string name="google_storage_bucket" translatable="false">app-practica-2-m8.firebasestorage.app</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="invalid_coordinates">Coordenadas inválidas</string>
+    <string name="invalid_coordinates_map">Coordenadas no válidas dentro de Map</string>
+    <string name="invalid_email_entered">Favor de ingresar una dirección de correo válida</string>
+    <string name="invalid_email_format">El correo no tiene un formato válido</string>
+    <string name="location_permission_denied">El permiso de ubicación se ha negado permanentemente</string>
     <string name="log_click_auto">Click en el juego %s</string>
+    <string name="log_loading_error">Error al obtener lista de autos</string>
+    <string name="login_successful">Autenticación exitosa</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="logout_success">Sesión cerrada exitosamente</string>
+    <string name="m_dulo_8">Módulo 8</string>
+    <string name="marker_title">Ubicación del auto</string>
+    <string name="mi_ubicacion">Mi ubicación</string>
     <string name="model">Model</string>
     <string name="modelD">Modelo:</string>
     <string name="name">Name</string>
     <string name="no_internet">Sin conexión a internet</string>
+    <string name="password_min_length">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="permission_required_message">Se necesita el permiso para poder ubicar la posición del usuario en el mapa</string>
+    <string name="permission_required_title">Permiso requerido</string>
     <string name="powerD">Caballos:</string>
+    <string name="project_id" translatable="false">app-practica-2-m8</string>
+    <string name="regresar">Regresar</string>
+    <string name="required_email">Se requiere el correo</string>
+    <string name="required_password">Se requiere una contraseña</string>
+    <string name="reset_password_cancel">Cancelar</string>
+    <string name="reset_password_email_failed">No se ha podido enviar el mensaje</string>
+    <string name="reset_password_email_sent">El enlace para restablecer la contraseña ha sido enviado</string>
+    <string name="reset_password_message">Ingrese su correo para recibir el enlace de restablecimiento</string>
+    <string name="reset_password_send">Enviar</string>
+    <string name="reset_password_title">Restablecer la contraseña</string>
     <string name="text">[Text]</string>
     <string name="text_no_internet">Comprueba tu conexión a Internet y vuelve a intentarlo</string>
     <string name="title">Title</string>
     <string name="topSpeedD">Velocidad máxima:</string>
     <string name="try_again">Intentar nuevamente</string>
+    <string name="understood_button">Entendido</string>
+    <string name="user_created">Usuario creado exitosamente</string>
+    <string name="verification_email_failed">No se pudo enviar el correo de verificación</string>
+    <string name="verification_email_sent">El correo de verificación ha sido enviado</string>
     <string name="versionD">Versión:</string>
     <string name="video">Ver video</string>
     <style name="Base.Theme.AppPractica2" parent="Theme.Material3.DayNight.NoActionBar">

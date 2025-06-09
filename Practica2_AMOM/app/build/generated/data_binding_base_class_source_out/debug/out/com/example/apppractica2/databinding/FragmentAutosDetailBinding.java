@@ -13,6 +13,7 @@ import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.apppractica2.R;
+import com.google.android.material.button.MaterialButton;
 import com.makeramen.roundedimageview.RoundedImageView;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -21,6 +22,9 @@ import java.lang.String;
 public final class FragmentAutosDetailBinding implements ViewBinding {
   @NonNull
   private final FrameLayout rootView;
+
+  @NonNull
+  public final MaterialButton btnMap;
 
   @NonNull
   public final Button btnVideo;
@@ -82,8 +86,8 @@ public final class FragmentAutosDetailBinding implements ViewBinding {
   @NonNull
   public final TextView tvVersionD;
 
-  private FragmentAutosDetailBinding(@NonNull FrameLayout rootView, @NonNull Button btnVideo,
-      @NonNull RoundedImageView ivImage, @NonNull ProgressBar pbLoading,
+  private FragmentAutosDetailBinding(@NonNull FrameLayout rootView, @NonNull MaterialButton btnMap,
+      @NonNull Button btnVideo, @NonNull RoundedImageView ivImage, @NonNull ProgressBar pbLoading,
       @NonNull TextView tvAcceleration, @NonNull TextView tvAccelerationD,
       @NonNull TextView tvBrand, @NonNull TextView tvBrandD, @NonNull TextView tvDrivetrain,
       @NonNull TextView tvDrivetrainD, @NonNull TextView tvEngine, @NonNull TextView tvEngineD,
@@ -91,6 +95,7 @@ public final class FragmentAutosDetailBinding implements ViewBinding {
       @NonNull TextView tvPowerD, @NonNull TextView tvTitle, @NonNull TextView tvTopSpeed,
       @NonNull TextView tvTopSpeedD, @NonNull TextView tvVersion, @NonNull TextView tvVersionD) {
     this.rootView = rootView;
+    this.btnMap = btnMap;
     this.btnVideo = btnVideo;
     this.ivImage = ivImage;
     this.pbLoading = pbLoading;
@@ -140,6 +145,12 @@ public final class FragmentAutosDetailBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btnMap;
+      MaterialButton btnMap = ViewBindings.findChildViewById(rootView, id);
+      if (btnMap == null) {
+        break missingId;
+      }
+
       id = R.id.btnVideo;
       Button btnVideo = ViewBindings.findChildViewById(rootView, id);
       if (btnVideo == null) {
@@ -260,10 +271,10 @@ public final class FragmentAutosDetailBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentAutosDetailBinding((FrameLayout) rootView, btnVideo, ivImage, pbLoading,
-          tvAcceleration, tvAccelerationD, tvBrand, tvBrandD, tvDrivetrain, tvDrivetrainD, tvEngine,
-          tvEngineD, tvModel, tvModelD, tvPower, tvPowerD, tvTitle, tvTopSpeed, tvTopSpeedD,
-          tvVersion, tvVersionD);
+      return new FragmentAutosDetailBinding((FrameLayout) rootView, btnMap, btnVideo, ivImage,
+          pbLoading, tvAcceleration, tvAccelerationD, tvBrand, tvBrandD, tvDrivetrain,
+          tvDrivetrainD, tvEngine, tvEngineD, tvModel, tvModelD, tvPower, tvPowerD, tvTitle,
+          tvTopSpeed, tvTopSpeedD, tvVersion, tvVersionD);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

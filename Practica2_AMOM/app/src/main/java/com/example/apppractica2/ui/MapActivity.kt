@@ -12,12 +12,19 @@ import androidx.appcompat.app.AlertDialog
 import android.widget.Toast
 import androidx.core.content.ContextCompat
 import android.content.pm.PackageManager
+import android.hardware.camera2.CameraDevice.CameraDeviceSetup
 import android.widget.ImageButton
 import com.example.apppractica2.databinding.ActivityMainBinding
 import com.example.apppractica2.databinding.ActivityMapBinding
+import com.google.android.gms.maps.CameraUpdate
+import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
+import com.google.android.gms.maps.model.BitmapDescriptorFactory
+import com.google.android.gms.maps.model.LatLng
+import com.google.android.gms.maps.model.Marker
+import com.google.android.gms.maps.model.MarkerOptions
 
 class MapActivity : AppCompatActivity(), OnMapReadyCallback {
 
@@ -79,9 +86,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
         mapFragment.getMapAsync(this)
     }
 
-    private fun actionPermissionGranted() {
-        TODO("Not yet implemented")
-    }
+    private fun actionPermissionGranted() {  }
 
     private fun updateOrRequestPermissions() {
         //Revisando el permiso
@@ -102,5 +107,29 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
 
     override fun onMapReady(map: GoogleMap) {
         googleMap = map
+
+        val cLatitude = intent.getStringExtra(getString(R.string.extra_latitude_key))?.toDoubleOrNull()
+        val cLongitude = intent.getStringExtra(getString(R.string.extra_longitude_key))?.toDoubleOrNull()
+
+        if (cLatitude != null && cLongitude != null) {
+            val coordinates = LatLng(cLatitude, cLongitude)
+            createMarker(coordinates)
+        } else {
+            Toast.makeText(this, getString(R.string.invalid_coordinates_map), Toast.LENGTH_SHORT).show()
+        }
+    }
+
+    private fun createMarker(coordinates: LatLng) {
+        val marker = MarkerOptions()
+            .position(coordinates)
+            .title(getString(R.string.marker_title))
+            .icon(BitmapDescriptorFactory.fromResource(R.drawable.logo_img))
+
+        googleMap.addMarker(marker)
+        googleMap.animateCamera(
+            CameraUpdateFactory.newLatLngZoom(coordinates, 16f),
+            1_500,
+            null
+        )
     }
 }

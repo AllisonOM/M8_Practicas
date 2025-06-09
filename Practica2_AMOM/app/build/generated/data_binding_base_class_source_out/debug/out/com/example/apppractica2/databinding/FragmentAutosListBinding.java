@@ -4,8 +4,11 @@ package com.example.apppractica2.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ProgressBar;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
@@ -21,16 +24,29 @@ public final class FragmentAutosListBinding implements ViewBinding {
   private final FrameLayout rootView;
 
   @NonNull
+  public final Button btnRetry;
+
+  @NonNull
+  public final RelativeLayout noInternetLayout;
+
+  @NonNull
   public final ProgressBar pbLoading;
 
   @NonNull
   public final RecyclerView rvAutos;
 
-  private FragmentAutosListBinding(@NonNull FrameLayout rootView, @NonNull ProgressBar pbLoading,
-      @NonNull RecyclerView rvAutos) {
+  @NonNull
+  public final TextView tvNoInternet;
+
+  private FragmentAutosListBinding(@NonNull FrameLayout rootView, @NonNull Button btnRetry,
+      @NonNull RelativeLayout noInternetLayout, @NonNull ProgressBar pbLoading,
+      @NonNull RecyclerView rvAutos, @NonNull TextView tvNoInternet) {
     this.rootView = rootView;
+    this.btnRetry = btnRetry;
+    this.noInternetLayout = noInternetLayout;
     this.pbLoading = pbLoading;
     this.rvAutos = rvAutos;
+    this.tvNoInternet = tvNoInternet;
   }
 
   @Override
@@ -60,6 +76,18 @@ public final class FragmentAutosListBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btnRetry;
+      Button btnRetry = ViewBindings.findChildViewById(rootView, id);
+      if (btnRetry == null) {
+        break missingId;
+      }
+
+      id = R.id.noInternetLayout;
+      RelativeLayout noInternetLayout = ViewBindings.findChildViewById(rootView, id);
+      if (noInternetLayout == null) {
+        break missingId;
+      }
+
       id = R.id.pbLoading;
       ProgressBar pbLoading = ViewBindings.findChildViewById(rootView, id);
       if (pbLoading == null) {
@@ -72,7 +100,14 @@ public final class FragmentAutosListBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentAutosListBinding((FrameLayout) rootView, pbLoading, rvAutos);
+      id = R.id.tvNoInternet;
+      TextView tvNoInternet = ViewBindings.findChildViewById(rootView, id);
+      if (tvNoInternet == null) {
+        break missingId;
+      }
+
+      return new FragmentAutosListBinding((FrameLayout) rootView, btnRetry, noInternetLayout,
+          pbLoading, rvAutos, tvNoInternet);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

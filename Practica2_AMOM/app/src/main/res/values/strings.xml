@@ -69,4 +69,9 @@
     <string name="location_permission_denied">El permiso de ubicación se ha negado permanentemente</string>
     <string name="regresar">Regresar</string>
     <string name="mi_ubicacion">Mi ubicación</string>
+    <string name="invalid_coordinates">Coordenadas inválidas</string>
+    <string name="extra_longitude_key">COORDENADAS_LONGITUDE</string>
+    <string name="extra_latitude_key">COORDENADAS_LATITUDE</string>
+    <string name="invalid_coordinates_map">Coordenadas no válidas dentro de Map</string>
+    <string name="marker_title">Ubicación del auto</string>
 </resources>

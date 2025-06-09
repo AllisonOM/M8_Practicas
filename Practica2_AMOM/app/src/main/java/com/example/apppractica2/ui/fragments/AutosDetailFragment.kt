@@ -86,9 +86,20 @@ class AutosDetailFragment : Fragment() {
                     }
 
                     btnMap.setOnClickListener {
-                        val intent = Intent(requireContext(), MapActivity::class.java)
-                        startActivity(intent)
+                        val cLatitude = autoDetail.latitude ?: ""
+                        val cLongitude = autoDetail.longitude ?: ""
+
+                        if (cLongitude.isNotBlank() && cLatitude.isNotBlank()) {
+                            val intent = Intent(requireContext(), MapActivity::class.java).apply {
+                                putExtra(getString(R.string.extra_longitude_key), cLongitude)
+                                putExtra(getString(R.string.extra_latitude_key), cLatitude)
+                            }
+                            startActivity(intent)
+                        } else {
+                            Toast.makeText(requireContext(), getString(R.string.invalid_coordinates), Toast.LENGTH_SHORT).show()
+                        }
                     }
+
                 }
 
             } catch (e: Exception) {

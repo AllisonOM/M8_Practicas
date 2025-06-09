@@ -1,85 +1,130 @@
 -- Merging decision tree log ---
+meta-data#com.google.android.geo.API_KEY
+INJECTED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:22:9-23:46
+	android:value
+		INJECTED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml
+		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:23:13-44
+	android:name
+		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:22:20-65
 manifest
-ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:2:1-32:12
-MERGED from [androidx.databinding:viewbinding:8.9.1] /Users/allisono/.gradle/caches/8.11.1/transforms/1aeea294a65a28eb4610e72a377dfa4b/transformed/viewbinding-8.9.1/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.navigation:navigation-common:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/764d2ea77612b690643eaa9a4a4f2dcd/transformed/navigation-common-2.8.9/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-common-ktx:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/7d97361f792255ff6dc233d7f81bc0ec/transformed/navigation-common-ktx-2.8.9/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.navigation:navigation-runtime:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/7deb503c6d608593c879ff5cf00aa3d4/transformed/navigation-runtime-2.8.9/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/36a758a7d385bc2651a4260b60a15e98/transformed/navigation-runtime-ktx-2.8.9/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.navigation:navigation-fragment:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/ab46da235f0a82c938abc4dd1233ec80/transformed/navigation-fragment-2.8.9/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-fragment-ktx:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/e74d459acbe195b9e7abe2d56c4e6339/transformed/navigation-fragment-ktx-2.8.9/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.navigation:navigation-ui-ktx:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/5220b457446620af6d6a7bbde60ac026/transformed/navigation-ui-ktx-2.8.9/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.navigation:navigation-ui:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/3c2292c4d1bd8385dfd5996fd19e143a/transformed/navigation-ui-2.8.9/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.material:material:1.12.0] /Users/allisono/.gradle/caches/8.11.1/transforms/d7867da99501dace5901e102948336ea/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/1a61b55e0894ccacdf185542e9cf65c5/transformed/constraintlayout-2.2.1/AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/allisono/.gradle/caches/8.11.1/transforms/6a17b739708319f021972094dabd72e6/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/allisono/.gradle/caches/8.11.1/transforms/c7e0338004c948cc6d4699fce0c03bf9/transformed/appcompat-1.7.0/AndroidManifest.xml:2:1-7:12
-MERGED from [com.github.bumptech.glide:glide:4.16.0] /Users/allisono/.gradle/caches/8.11.1/transforms/129cef3063a268c424b957adf593ccb6/transformed/glide-4.16.0/AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/b93a65a69d02f5ece631a01f069193ab/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment-ktx:1.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/ff856a55253fe52bb46d8a29d7a957c6/transformed/fragment-ktx-1.6.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.fragment:fragment:1.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/2b56859d50c8661891206234b9d68da9/transformed/fragment-1.6.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity-ktx:1.10.1] /Users/allisono/.gradle/caches/8.11.1/transforms/3131c0e23ec001d96d1d4f9bfeb72d70/transformed/activity-ktx-1.10.1/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.activity:activity:1.10.1] /Users/allisono/.gradle/caches/8.11.1/transforms/fbe7fdbae1cd3f2f542bfc2454a5ecaa/transformed/activity-1.10.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.media3:media3-ui:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/efbdecb245c735fc069ed16fcd977a1f/transformed/media3-ui-1.7.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.media3:media3-extractor:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/52059bf7119a01a61aabf97b83927d32/transformed/media3-extractor-1.7.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.media3:media3-container:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/c5ea214b1f511ac9d0ab1bb05bd7f8ba/transformed/media3-container-1.7.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.media3:media3-datasource:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/f0b8749511f9a620690fdee32b795214/transformed/media3-datasource-1.7.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.media3:media3-decoder:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/d5722b8617a7ca06d353dae5c841b331/transformed/media3-decoder-1.7.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.media3:media3-database:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/1e5e33192373423bec8cbf3a3ec292dc/transformed/media3-database-1.7.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.media3:media3-common:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/a2c20e7c4989307b2986e520c3807089/transformed/media3-common-1.7.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.media3:media3-exoplayer:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/ff94fd977e30ab3e1ac50729804e567e/transformed/media3-exoplayer-1.7.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/4a14500fe9733f9ec37fa6cb0d9a4cb5/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/0165750a35ead6a759bdbf5c604984a6/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/allisono/.gradle/caches/8.11.1/transforms/ac07acde835b895d2873a711730765f8/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/9c8b23ba6f75aa63bfc6d803c6dde442/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/d8e376594e646d8eb90cb0e2b486f6a1/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.transition:transition:1.5.0] /Users/allisono/.gradle/caches/8.11.1/transforms/ccfad93cfd996ba0333b78daa7fb6924/transformed/transition-1.5.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/6b6341e4e149dbb443e290f293b8905b/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/52a626755a2178a3752e2d8659a16927/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/4e854a79cc1c2a4a9e98d402b27648fe/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.recyclerview:recyclerview:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/1cd0b08392a9a34da77a10b544dde15f/transformed/recyclerview-1.3.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/3621c10df1244a084ed824e5e8d81fb8/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/14873c4b894d82e252c3b6d80bfd1f7e/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/afc24ad3e9655055406b1a39606873ec/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/e07955a96d70699cfb8ab8bef475124d/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.window:window:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/98090201f7907f85d639cdf9428b09f3/transformed/window-1.0.0/AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.core:core:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/46985ca6f9415910f2d90154e706cdae/transformed/core-1.15.0/AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/4a1fbc439d54d9e56de918acc0113641/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/515ee9f76e209fa23dd6b0a0ac889f07/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/65863b6e5dae09ab51470687c6124434/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/aaf0c8731455f726cc542c461175f255/transformed/core-12.1.0/AndroidManifest.xml:2:1-10:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/c2582dea2dd87e57349ab1eb3c444950/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/ea34cb946edad4987e5a75c7a652daed/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/010bf072232796aa0d3ccfad42393d86/transformed/lifecycle-livedata-core-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/7f144c5ce717b39aae5b6a0f54880615/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/b9eac9c3427ef893dd096b736af069ac/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/5fb80e45366aa1d266c55eb1bf91cdf8/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/ad87d32e6f605b7c3b5c71f610b427e2/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/49ec9b74213b46208e7a1c7616e48654/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/4ecfc20b2cce37777adb86ae71e91763/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core-ktx:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/6826cb2cea31d3dbf35007dde3df156b/transformed/core-ktx-1.15.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.core:core-splashscreen:1.0.1] /Users/allisono/.gradle/caches/8.11.1/transforms/08362ca887298c5d355941f00b3e30e8/transformed/core-splashscreen-1.0.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core-viewtree:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/552ad272205e5ef98f8b183ccd7dd430/transformed/core-viewtree-1.0.0/AndroidManifest.xml:2:1-7:12
-MERGED from [com.squareup.picasso:picasso:2.71828] /Users/allisono/.gradle/caches/8.11.1/transforms/f22e27a5d3e3e0d6cfd3d78ca118f18a/transformed/picasso-2.71828/AndroidManifest.xml:2:1-14:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/6650819a67902006ae7cbd069c1d3e68/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/7f882a1b187bb9885a85ebc73d9eef07/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/71ba0dcaee12382a28af0c5b3bd67062/transformed/profileinstaller-1.4.0/AndroidManifest.xml:17:1-55:12
-MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] /Users/allisono/.gradle/caches/8.11.1/transforms/7c5c06b3144c48113ffa19f9690ca2c8/transformed/gifdecoder-4.16.0/AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.exifinterface:exifinterface:1.3.6] /Users/allisono/.gradle/caches/8.11.1/transforms/815447a66471969899c80c9e91771904/transformed/exifinterface-1.3.6/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/allisono/.gradle/caches/8.11.1/transforms/2fe19dcee298bc54d346f776a47f396c/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/179b790e247d9a6a142ec6ee67656551/transformed/tracing-1.2.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/144f20da22dcb9065d606ad38cbf3ea4/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4fa6389c8930b222eb77398f9cdc4a69/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/c2f80fadcbe15202e22f9e9223fca985/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/ecfb80deec6f5809b20c3f43c0948b95/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/00d13c1a4bf1335ea88fef8d5ad4bdba/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/9b7c7e71e21201cbc309b0e48cd5f401/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/allisono/.gradle/caches/8.11.1/transforms/719c204dbb6565bdc233a19191c42665/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
-MERGED from [com.makeramen:roundedimageview:2.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/0c33ef125264c6ad8719689bd00ac630/transformed/roundedimageview-2.3.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.android.support:exifinterface:27.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/53c2c558e4c6c9e14aba5744762e0400/transformed/exifinterface-27.1.0/AndroidManifest.xml:17:1-22:12
+ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:2:1-42:12
+MERGED from [androidx.databinding:viewbinding:8.9.1] /Users/allisono/.gradle/caches/8.11.1/transforms/0deaf7857cd9b4fa00202188aa8fcbbd/transformed/viewbinding-8.9.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-common:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/21e37b0f244fd82741c1b819ee537ac9/transformed/navigation-common-2.8.9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/337dac24d2e90d8d6cfa3716262f2f07/transformed/navigation-common-ktx-2.8.9/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/4ddeed9d1e6f3c46950922dab2cb82d5/transformed/navigation-runtime-2.8.9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/10f19042fb0d17f1ad4d90a656c1b412/transformed/navigation-runtime-ktx-2.8.9/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-fragment:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/59d312e057a74783baeadee3f1e05533/transformed/navigation-fragment-2.8.9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/488e7da9851e7b12bebe084ae9c6109e/transformed/navigation-fragment-ktx-2.8.9/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/af2226b065dc82f4818fd82e563e0872/transformed/navigation-ui-ktx-2.8.9/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-ui:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/59c2aa785662cad68e044c52fb073788/transformed/navigation-ui-2.8.9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.12.0] /Users/allisono/.gradle/caches/8.11.1/transforms/d1dc09f2918392c549ff3a5e153d762c/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/a92aad6fec98ea12e669e8da51cae266/transformed/constraintlayout-2.2.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/allisono/.gradle/caches/8.11.1/transforms/ad1fb95f52a73c4e05fb14e5efc82c96/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/allisono/.gradle/caches/8.11.1/transforms/06c8d01142d74b3f2fcd246c1c712157/transformed/appcompat-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.bumptech.glide:glide:4.16.0] /Users/allisono/.gradle/caches/8.11.1/transforms/9247b4d0d3f0535f8b620e44b93890d5/transformed/glide-4.16.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-auth:23.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4d98a9e7b4cbca06f7fd676c5eb12ee9/transformed/firebase-auth-23.2.1/AndroidManifest.xml:17:1-75:12
+MERGED from [com.google.maps.android:maps-compose:2.11.2] /Users/allisono/.gradle/caches/8.11.1/transforms/ea86b4442939d1c9935a7514c71427ef/transformed/maps-compose-2.11.2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.maps.android:maps-ktx:3.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/2c819ec6bb88facf2ded0e60b2e95140/transformed/maps-ktx-3.3.0/AndroidManifest.xml:18:1-25:12
+MERGED from [com.google.android.gms:play-services-maps:19.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/61988a2e658ed021f189642b3458dd1c/transformed/play-services-maps-19.2.0/AndroidManifest.xml:16:1-35:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/03bef3886d7d8d1a6c2e6377d9d0bf21/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-location:21.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/88cbe40e73068d204f0ccd782b1bede5/transformed/play-services-location-21.3.0/AndroidManifest.xml:2:1-8:12
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] /Users/allisono/.gradle/caches/8.11.1/transforms/8679b9afb3a631384a928b847e9710e3/transformed/credentials-1.2.0-rc01/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/allisono/.gradle/caches/8.11.1/transforms/9bade732b8718ae8122a61a325bf83d5/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/allisono/.gradle/caches/8.11.1/transforms/f510143096bb9b25aebf824730b8e0f7/transformed/play-services-auth-20.7.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /Users/allisono/.gradle/caches/8.11.1/transforms/3cee0bc2ca249d50f022f4ed2272700d/transformed/play-services-auth-api-phone-18.0.2/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] /Users/allisono/.gradle/caches/8.11.1/transforms/467429a5cad76d7a936fafb540e3d50f/transformed/recaptcha-18.6.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.play:integrity:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/4f65b0f8f96d188ed37657bdbeaa4a3e/transformed/integrity-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/6a6af90c6c3906dcdaa3abfe43b65112/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/36cc415c1fec253a242828e81d1ea124/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/e1874505788cf892c6faaf19a70bd469/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/16fbfa0c2249503a663cc32e986d6536/transformed/firebase-common-21.0.0/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/b94e90ac98125df54e81b72a963e9539/transformed/play-services-fido-20.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/allisono/.gradle/caches/8.11.1/transforms/b56c9eb376a7ad51b6e0f2deffdcbbfa/transformed/play-services-auth-base-18.0.4/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/allisono/.gradle/caches/8.11.1/transforms/8ed707b0b7703482efe5a889416cbb51/transformed/play-services-base-18.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/48883440029052a3f99ae26e849366c8/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/4f282c369c087540aadef54cdcb495d1/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/c1d0fbd174372e6b101f4a72b78c46f3/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] /Users/allisono/.gradle/caches/8.11.1/transforms/080525fde589b5ee56bfb00222efa8de/transformed/transition-1.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/82153c20ec1d8c035d96edc47e0e7edc/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/8d0a0c2b2173605ef99de97e6435631f/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/95ea5f8ef782dd5436a00cebfc6d5745/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-ui:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/bf5ad8153c17b988434b756a940e7ad8/transformed/media3-ui-1.7.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-extractor:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/93fd9061ea8d54a37160859446c5279b/transformed/media3-extractor-1.7.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-container:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/2fca06c87da6b9e383d0d2bf57c7271a/transformed/media3-container-1.7.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-datasource:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/e3aea62f3107cb1f4ef14b9eedd03bc4/transformed/media3-datasource-1.7.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-decoder:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4493707462f675cd9f5e29e71bdf4ccf/transformed/media3-decoder-1.7.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-database:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/788a5188cc2fae720e2127243acbf42f/transformed/media3-database-1.7.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-common:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/a96df1b8e6af6be896fa5d5049eb7d61/transformed/media3-common-1.7.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media3:media3-exoplayer:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/36d048f3d849cc1977fdc63d6371e7eb/transformed/media3-exoplayer-1.7.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/allisono/.gradle/caches/8.11.1/transforms/620d4dcdf3e9351833c4717b0d52f8fb/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/c2d0298c5e72b1866652f93c370f36d9/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/1a7b66763da3146b221c52f6b8e6e540/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/ba4efa2d35a349fabaf70796b7855b9f/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/bc366f193d7793d4e11f96bc97130ea2/transformed/recyclerview-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/c525383cc1b5cf03d95b7a4b6b48854c/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/fd51accc58bbf9dd61a14ae2e9c63165/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/6aaa66fdf736064c0c9d7281522d05dd/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/98437f7209d933c341f57696e134e1a8/transformed/window-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.compose.foundation:foundation:1.3.1] /Users/allisono/.gradle/caches/8.11.1/transforms/3b0edbc1ad2ac9904b11aa6ebc756a73/transformed/foundation-1.3.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.animation:animation:1.3.1] /Users/allisono/.gradle/caches/8.11.1/transforms/8f9c157ffd0cc1556834fb4b5955e067/transformed/animation-1.3.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.foundation:foundation-layout:1.3.1] /Users/allisono/.gradle/caches/8.11.1/transforms/82e0a4c71ee46fd0e3b2c7337b6cfae0/transformed/foundation-layout-1.3.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.animation:animation-core:1.3.1] /Users/allisono/.gradle/caches/8.11.1/transforms/d4800160f8042709772d9797e54d8171/transformed/animation-core-1.3.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui:1.3.1] /Users/allisono/.gradle/caches/8.11.1/transforms/1b284a7d99381ac3e8362fa4cc1d91fb/transformed/ui-1.3.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-text:1.3.1] /Users/allisono/.gradle/caches/8.11.1/transforms/55ad78306aa7ee89010fecea65386009/transformed/ui-text-1.3.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/7e63d0cc16c09e02792bc00921d1de04/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/49bb58ab0f6487e68e4a5149719679cb/transformed/core-1.15.0/AndroidManifest.xml:17:1-30:12
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/5f8fe7b66949cec28898ec8460e682af/transformed/core-12.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/32def8351ff7e681a8a37708851f7ee5/transformed/fragment-ktx-1.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.0] /Users/allisono/.gradle/caches/8.11.1/transforms/ac47ccead4825e16f5e2418aeeb11063/transformed/lifecycle-livedata-core-2.9.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.9.0] /Users/allisono/.gradle/caches/8.11.1/transforms/2d407328218fc2a884b901310eac6e4a/transformed/lifecycle-livedata-core-ktx-2.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.9.0] /Users/allisono/.gradle/caches/8.11.1/transforms/6ec247ca9c443dd0436ba14e0807c7e0/transformed/lifecycle-livedata-2.9.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.0] /Users/allisono/.gradle/caches/8.11.1/transforms/d2d1ce279ab7e9350494931bf8be4fab/transformed/lifecycle-viewmodel-savedstate-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.10.1] /Users/allisono/.gradle/caches/8.11.1/transforms/c342673b53a2e3dd359db61d24387604/transformed/activity-ktx-1.10.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.0] /Users/allisono/.gradle/caches/8.11.1/transforms/75025ef9964687d471ec67088a329f0f/transformed/lifecycle-runtime-ktx/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.0] /Users/allisono/.gradle/caches/8.11.1/transforms/381504b51bb7d9a4c2553891930a88fb/transformed/lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/2524474f0308480527a1d9822e1a0466/transformed/savedstate-ktx-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-android:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/f7c00b091e8e14f1a98f092d021aff44/transformed/savedstate-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.9.0] /Users/allisono/.gradle/caches/8.11.1/transforms/081e0d9dc48d19a96efbcd4bab8554e0/transformed/lifecycle-viewmodel-2.9.0/AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.0] /Users/allisono/.gradle/caches/8.11.1/transforms/ce425493e9dc380cfb60230ecfce5ec3/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.0] /Users/allisono/.gradle/caches/8.11.1/transforms/1ede64362e514849fc64fb9bc98e400c/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.0] /Users/allisono/.gradle/caches/8.11.1/transforms/2854a1379f903dea8a6a7a2c244cc282/transformed/lifecycle-viewmodel-ktx-2.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics:1.3.1] /Users/allisono/.gradle/caches/8.11.1/transforms/44b1b32589145f4241515a67d983ddfa/transformed/ui-graphics-1.3.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-unit:1.3.1] /Users/allisono/.gradle/caches/8.11.1/transforms/c0814428348e0ad58137c4b1746f2e5f/transformed/ui-unit-1.3.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-geometry:1.3.1] /Users/allisono/.gradle/caches/8.11.1/transforms/e58bd67d2e7139617d9b1682ef62be05/transformed/ui-geometry-1.3.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-saveable:1.3.1] /Users/allisono/.gradle/caches/8.11.1/transforms/83cb649b79ae1d5382231af076da7121/transformed/runtime-saveable-1.3.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime:1.3.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4bdef411d3b56a5797d6fa11a51bc39a/transformed/runtime-1.3.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/db0043347543fa25f16d9cd52fe1a2ef/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/c506415cdf61ec236b1ef932f12fa0c2/transformed/play-services-basement-18.4.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/6c0ec02030cbb07328c0fc97908056cf/transformed/fragment-1.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.10.1] /Users/allisono/.gradle/caches/8.11.1/transforms/aa5d7046e0602105fa6f02e8586f2169/transformed/activity-1.10.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/3e8ee3611f0f23f5a2bc169090569759/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/eaeb9c39a60abc204e6776c1f9a38fe2/transformed/core-ktx-1.15.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-splashscreen:1.0.1] /Users/allisono/.gradle/caches/8.11.1/transforms/734f4784372115230df12dae46d819b8/transformed/core-splashscreen-1.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/acaa4b0584063b8e462d68410f1aaa2f/transformed/core-viewtree-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/allisono/.gradle/caches/8.11.1/transforms/068f054d0c2f00f07393df9d1489d9fb/transformed/picasso-2.71828/AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/allisono/.gradle/caches/8.11.1/transforms/7b68d3132885d13ac0b793a734401505/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/9ad2245ff2f03a4878e426c97dd58d4e/transformed/googleid-1.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/allisono/.gradle/caches/8.11.1/transforms/508569ae1711c76cfdf782788d90c559/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.compose.ui:ui-util:1.3.1] /Users/allisono/.gradle/caches/8.11.1/transforms/e9cf999b004c635d13146e158a8e621c/transformed/ui-util-1.3.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/02c33bc6c11b01b0fde242d86d3b871c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/03e295837aab3e1a12a46e08b838c29f/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/b8f504aae1bced29e617bcc608efeb2a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:17:1-55:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] /Users/allisono/.gradle/caches/8.11.1/transforms/e65b8df38db0b0dbd5da62b6c1815355/transformed/gifdecoder-4.16.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /Users/allisono/.gradle/caches/8.11.1/transforms/80dd8f7653a3839dbd4420da941291b4/transformed/exifinterface-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/d01b4189ea18c124c13989ef390c2f3e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/8319810a38431b86d27be1db0f0dd70a/transformed/firebase-components-18.0.0/AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/allisono/.gradle/caches/8.11.1/transforms/da043742b34701e3f06fd057e596b4c2/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/0326e1218f2bee9278e3c3bedcfe05d7/transformed/tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/a173f5fdb561648824e3218aa0346c59/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/6f6cd1bd5355ef508d89ab167841054b/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/b44cb73feb1a86b6f5c070380aa2e586/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/e2f974863630adea64606f39a688a089/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.makeramen:roundedimageview:2.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/618c783bd44b8f59b0eb126a1cd078b5/transformed/roundedimageview-2.3.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:exifinterface:27.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/8ebe1a0641080484a483bae7caa0aa94/transformed/exifinterface-27.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.play:core-common:2.0.3] /Users/allisono/.gradle/caches/8.11.1/transforms/19fcca64f01b3c83acdead41bd5a3124/transformed/core-common-2.0.3/AndroidManifest.xml:2:1-21:12
 	package
 		INJECTED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml
 	android:versionName
@@ -91,48 +136,98 @@ MERGED from [com.android.support:exifinterface:27.1.0] /Users/allisono/.gradle/c
 	xmlns:android
 		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:6:5-66
-MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/aaf0c8731455f726cc542c461175f255/transformed/core-12.1.0/AndroidManifest.xml:7:5-67
-MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/aaf0c8731455f726cc542c461175f255/transformed/core-12.1.0/AndroidManifest.xml:7:5-67
+ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [com.google.firebase:firebase-auth:23.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4d98a9e7b4cbca06f7fd676c5eb12ee9/transformed/firebase-auth-23.2.1/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:23.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4d98a9e7b4cbca06f7fd676c5eb12ee9/transformed/firebase-auth-23.2.1/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.gms:play-services-maps:19.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/61988a2e658ed021f189642b3458dd1c/transformed/play-services-maps-19.2.0/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:19.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/61988a2e658ed021f189642b3458dd1c/transformed/play-services-maps-19.2.0/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] /Users/allisono/.gradle/caches/8.11.1/transforms/467429a5cad76d7a936fafb540e3d50f/transformed/recaptcha-18.6.1/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] /Users/allisono/.gradle/caches/8.11.1/transforms/467429a5cad76d7a936fafb540e3d50f/transformed/recaptcha-18.6.1/AndroidManifest.xml:7:5-67
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/5f8fe7b66949cec28898ec8460e682af/transformed/core-12.1.0/AndroidManifest.xml:7:5-67
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/5f8fe7b66949cec28898ec8460e682af/transformed/core-12.1.0/AndroidManifest.xml:7:5-67
 	android:name
-		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:6:22-64
+		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:8:5-78
-MERGED from [androidx.media3:media3-common:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/a2c20e7c4989307b2986e520c3807089/transformed/media3-common-1.7.1/AndroidManifest.xml:22:5-79
-MERGED from [androidx.media3:media3-common:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/a2c20e7c4989307b2986e520c3807089/transformed/media3-common-1.7.1/AndroidManifest.xml:22:5-79
-MERGED from [androidx.media3:media3-exoplayer:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/ff94fd977e30ab3e1ac50729804e567e/transformed/media3-exoplayer-1.7.1/AndroidManifest.xml:22:5-79
-MERGED from [androidx.media3:media3-exoplayer:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/ff94fd977e30ab3e1ac50729804e567e/transformed/media3-exoplayer-1.7.1/AndroidManifest.xml:22:5-79
-MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/aaf0c8731455f726cc542c461175f255/transformed/core-12.1.0/AndroidManifest.xml:8:5-79
-MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/aaf0c8731455f726cc542c461175f255/transformed/core-12.1.0/AndroidManifest.xml:8:5-79
+ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:6:5-79
+MERGED from [com.google.firebase:firebase-auth:23.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4d98a9e7b4cbca06f7fd676c5eb12ee9/transformed/firebase-auth-23.2.1/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-auth:23.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4d98a9e7b4cbca06f7fd676c5eb12ee9/transformed/firebase-auth-23.2.1/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-maps:19.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/61988a2e658ed021f189642b3458dd1c/transformed/play-services-maps-19.2.0/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-maps:19.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/61988a2e658ed021f189642b3458dd1c/transformed/play-services-maps-19.2.0/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] /Users/allisono/.gradle/caches/8.11.1/transforms/467429a5cad76d7a936fafb540e3d50f/transformed/recaptcha-18.6.1/AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] /Users/allisono/.gradle/caches/8.11.1/transforms/467429a5cad76d7a936fafb540e3d50f/transformed/recaptcha-18.6.1/AndroidManifest.xml:8:5-79
+MERGED from [androidx.media3:media3-common:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/a96df1b8e6af6be896fa5d5049eb7d61/transformed/media3-common-1.7.1/AndroidManifest.xml:22:5-79
+MERGED from [androidx.media3:media3-common:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/a96df1b8e6af6be896fa5d5049eb7d61/transformed/media3-common-1.7.1/AndroidManifest.xml:22:5-79
+MERGED from [androidx.media3:media3-exoplayer:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/36d048f3d849cc1977fdc63d6371e7eb/transformed/media3-exoplayer-1.7.1/AndroidManifest.xml:22:5-79
+MERGED from [androidx.media3:media3-exoplayer:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/36d048f3d849cc1977fdc63d6371e7eb/transformed/media3-exoplayer-1.7.1/AndroidManifest.xml:22:5-79
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/5f8fe7b66949cec28898ec8460e682af/transformed/core-12.1.0/AndroidManifest.xml:8:5-79
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/5f8fe7b66949cec28898ec8460e682af/transformed/core-12.1.0/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:8:5-79
 	android:name
 		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:8:22-76
 application
-ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:10:5-30:19
-INJECTED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:10:5-30:19
-MERGED from [com.google.android.material:material:1.12.0] /Users/allisono/.gradle/caches/8.11.1/transforms/d7867da99501dace5901e102948336ea/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.12.0] /Users/allisono/.gradle/caches/8.11.1/transforms/d7867da99501dace5901e102948336ea/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/1a61b55e0894ccacdf185542e9cf65c5/transformed/constraintlayout-2.2.1/AndroidManifest.xml:7:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/1a61b55e0894ccacdf185542e9cf65c5/transformed/constraintlayout-2.2.1/AndroidManifest.xml:7:5-20
-MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/0165750a35ead6a759bdbf5c604984a6/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/0165750a35ead6a759bdbf5c604984a6/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.window:window:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/98090201f7907f85d639cdf9428b09f3/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
-MERGED from [androidx.window:window:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/98090201f7907f85d639cdf9428b09f3/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
-MERGED from [androidx.core:core:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/46985ca6f9415910f2d90154e706cdae/transformed/core-1.15.0/AndroidManifest.xml:28:5-89
-MERGED from [androidx.core:core:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/46985ca6f9415910f2d90154e706cdae/transformed/core-1.15.0/AndroidManifest.xml:28:5-89
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/ad87d32e6f605b7c3b5c71f610b427e2/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/ad87d32e6f605b7c3b5c71f610b427e2/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
-MERGED from [com.squareup.picasso:picasso:2.71828] /Users/allisono/.gradle/caches/8.11.1/transforms/f22e27a5d3e3e0d6cfd3d78ca118f18a/transformed/picasso-2.71828/AndroidManifest.xml:7:5-12:19
-MERGED from [com.squareup.picasso:picasso:2.71828] /Users/allisono/.gradle/caches/8.11.1/transforms/f22e27a5d3e3e0d6cfd3d78ca118f18a/transformed/picasso-2.71828/AndroidManifest.xml:7:5-12:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/71ba0dcaee12382a28af0c5b3bd67062/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/71ba0dcaee12382a28af0c5b3bd67062/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/allisono/.gradle/caches/8.11.1/transforms/2fe19dcee298bc54d346f776a47f396c/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/allisono/.gradle/caches/8.11.1/transforms/2fe19dcee298bc54d346f776a47f396c/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4fa6389c8930b222eb77398f9cdc4a69/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4fa6389c8930b222eb77398f9cdc4a69/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:10:5-40:19
+INJECTED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:10:5-40:19
+MERGED from [com.google.android.material:material:1.12.0] /Users/allisono/.gradle/caches/8.11.1/transforms/d1dc09f2918392c549ff3a5e153d762c/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] /Users/allisono/.gradle/caches/8.11.1/transforms/d1dc09f2918392c549ff3a5e153d762c/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/a92aad6fec98ea12e669e8da51cae266/transformed/constraintlayout-2.2.1/AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/a92aad6fec98ea12e669e8da51cae266/transformed/constraintlayout-2.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth:23.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4d98a9e7b4cbca06f7fd676c5eb12ee9/transformed/firebase-auth-23.2.1/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:23.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4d98a9e7b4cbca06f7fd676c5eb12ee9/transformed/firebase-auth-23.2.1/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.android.gms:play-services-maps:19.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/61988a2e658ed021f189642b3458dd1c/transformed/play-services-maps-19.2.0/AndroidManifest.xml:31:5-34:19
+MERGED from [com.google.android.gms:play-services-maps:19.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/61988a2e658ed021f189642b3458dd1c/transformed/play-services-maps-19.2.0/AndroidManifest.xml:31:5-34:19
+MERGED from [com.google.android.gms:play-services-location:21.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/88cbe40e73068d204f0ccd782b1bede5/transformed/play-services-location-21.3.0/AndroidManifest.xml:6:5-20
+MERGED from [com.google.android.gms:play-services-location:21.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/88cbe40e73068d204f0ccd782b1bede5/transformed/play-services-location-21.3.0/AndroidManifest.xml:6:5-20
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/allisono/.gradle/caches/8.11.1/transforms/9bade732b8718ae8122a61a325bf83d5/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:23:5-42:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/allisono/.gradle/caches/8.11.1/transforms/9bade732b8718ae8122a61a325bf83d5/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:23:5-42:19
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/allisono/.gradle/caches/8.11.1/transforms/f510143096bb9b25aebf824730b8e0f7/transformed/play-services-auth-20.7.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/allisono/.gradle/caches/8.11.1/transforms/f510143096bb9b25aebf824730b8e0f7/transformed/play-services-auth-20.7.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.play:integrity:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/4f65b0f8f96d188ed37657bdbeaa4a3e/transformed/integrity-1.3.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/4f65b0f8f96d188ed37657bdbeaa4a3e/transformed/integrity-1.3.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/6a6af90c6c3906dcdaa3abfe43b65112/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/6a6af90c6c3906dcdaa3abfe43b65112/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/36cc415c1fec253a242828e81d1ea124/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/36cc415c1fec253a242828e81d1ea124/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/e1874505788cf892c6faaf19a70bd469/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/e1874505788cf892c6faaf19a70bd469/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/16fbfa0c2249503a663cc32e986d6536/transformed/firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/16fbfa0c2249503a663cc32e986d6536/transformed/firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/b94e90ac98125df54e81b72a963e9539/transformed/play-services-fido-20.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/b94e90ac98125df54e81b72a963e9539/transformed/play-services-fido-20.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/allisono/.gradle/caches/8.11.1/transforms/8ed707b0b7703482efe5a889416cbb51/transformed/play-services-base-18.5.0/AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/allisono/.gradle/caches/8.11.1/transforms/8ed707b0b7703482efe5a889416cbb51/transformed/play-services-base-18.5.0/AndroidManifest.xml:4:5-6:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/4f282c369c087540aadef54cdcb495d1/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/4f282c369c087540aadef54cdcb495d1/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.window:window:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/98437f7209d933c341f57696e134e1a8/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/98437f7209d933c341f57696e134e1a8/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/49bb58ab0f6487e68e4a5149719679cb/transformed/core-1.15.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/49bb58ab0f6487e68e4a5149719679cb/transformed/core-1.15.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.0] /Users/allisono/.gradle/caches/8.11.1/transforms/1ede64362e514849fc64fb9bc98e400c/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.0] /Users/allisono/.gradle/caches/8.11.1/transforms/1ede64362e514849fc64fb9bc98e400c/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/db0043347543fa25f16d9cd52fe1a2ef/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/db0043347543fa25f16d9cd52fe1a2ef/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/c506415cdf61ec236b1ef932f12fa0c2/transformed/play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/c506415cdf61ec236b1ef932f12fa0c2/transformed/play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/allisono/.gradle/caches/8.11.1/transforms/068f054d0c2f00f07393df9d1489d9fb/transformed/picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/allisono/.gradle/caches/8.11.1/transforms/068f054d0c2f00f07393df9d1489d9fb/transformed/picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/allisono/.gradle/caches/8.11.1/transforms/508569ae1711c76cfdf782788d90c559/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/allisono/.gradle/caches/8.11.1/transforms/508569ae1711c76cfdf782788d90c559/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/b8f504aae1bced29e617bcc608efeb2a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/b8f504aae1bced29e617bcc608efeb2a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/allisono/.gradle/caches/8.11.1/transforms/da043742b34701e3f06fd057e596b4c2/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/allisono/.gradle/caches/8.11.1/transforms/da043742b34701e3f06fd057e596b4c2/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [com.google.android.play:core-common:2.0.3] /Users/allisono/.gradle/caches/8.11.1/transforms/19fcca64f01b3c83acdead41bd5a3124/transformed/core-common-2.0.3/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.android.play:core-common:2.0.3] /Users/allisono/.gradle/caches/8.11.1/transforms/19fcca64f01b3c83acdead41bd5a3124/transformed/core-common-2.0.3/AndroidManifest.xml:11:5-19:19
 	android:extractNativeLibs
 		INJECTED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/46985ca6f9415910f2d90154e706cdae/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
+		ADDED from [androidx.core:core:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/49bb58ab0f6487e68e4a5149719679cb/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
 		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:18:9-35
 	android:label
@@ -146,296 +241,574 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/alli
 	android:icon
 		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:15:9-43
 	android:allowBackup
-		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:12:9-35
 	android:theme
 		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:19:9-50
 	android:dataExtractionRules
 		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:13:9-65
 	android:name
-		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:12:9-46
-activity#com.example.apppractica2.ui.MainActivity
-ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:21:9-29:20
+		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:11:9-46
+activity#com.example.apppractica2.ui.MapActivity
+ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:25:9-27:40
 	android:exported
-		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:23:13-36
+		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:22:13-44
+		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:26:13-43
+activity#com.example.apppractica2.ui.Login
+ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:28:9-36:20
+	android:exported
+		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:29:13-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:24:13-28:29
+ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:31:13-35:29
 action#android.intent.action.MAIN
-ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:25:17-69
+ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:32:17-69
 	android:name
-		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:25:25-66
+		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:32:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:27:17-77
+ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:34:17-77
 	android:name
-		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:27:27-74
+		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:34:27-74
+activity#com.example.apppractica2.ui.MainActivity
+ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:37:9-39:40
+	android:exported
+		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml:38:13-44
 uses-sdk
 INJECTED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml
 INJECTED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml
-MERGED from [androidx.databinding:viewbinding:8.9.1] /Users/allisono/.gradle/caches/8.11.1/transforms/1aeea294a65a28eb4610e72a377dfa4b/transformed/viewbinding-8.9.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.databinding:viewbinding:8.9.1] /Users/allisono/.gradle/caches/8.11.1/transforms/1aeea294a65a28eb4610e72a377dfa4b/transformed/viewbinding-8.9.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-common:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/764d2ea77612b690643eaa9a4a4f2dcd/transformed/navigation-common-2.8.9/AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-common:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/764d2ea77612b690643eaa9a4a4f2dcd/transformed/navigation-common-2.8.9/AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-common-ktx:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/7d97361f792255ff6dc233d7f81bc0ec/transformed/navigation-common-ktx-2.8.9/AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-common-ktx:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/7d97361f792255ff6dc233d7f81bc0ec/transformed/navigation-common-ktx-2.8.9/AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-runtime:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/7deb503c6d608593c879ff5cf00aa3d4/transformed/navigation-runtime-2.8.9/AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-runtime:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/7deb503c6d608593c879ff5cf00aa3d4/transformed/navigation-runtime-2.8.9/AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/36a758a7d385bc2651a4260b60a15e98/transformed/navigation-runtime-ktx-2.8.9/AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/36a758a7d385bc2651a4260b60a15e98/transformed/navigation-runtime-ktx-2.8.9/AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-fragment:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/ab46da235f0a82c938abc4dd1233ec80/transformed/navigation-fragment-2.8.9/AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-fragment:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/ab46da235f0a82c938abc4dd1233ec80/transformed/navigation-fragment-2.8.9/AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-fragment-ktx:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/e74d459acbe195b9e7abe2d56c4e6339/transformed/navigation-fragment-ktx-2.8.9/AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-fragment-ktx:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/e74d459acbe195b9e7abe2d56c4e6339/transformed/navigation-fragment-ktx-2.8.9/AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-ui-ktx:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/5220b457446620af6d6a7bbde60ac026/transformed/navigation-ui-ktx-2.8.9/AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-ui-ktx:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/5220b457446620af6d6a7bbde60ac026/transformed/navigation-ui-ktx-2.8.9/AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-ui:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/3c2292c4d1bd8385dfd5996fd19e143a/transformed/navigation-ui-2.8.9/AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-ui:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/3c2292c4d1bd8385dfd5996fd19e143a/transformed/navigation-ui-2.8.9/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.12.0] /Users/allisono/.gradle/caches/8.11.1/transforms/d7867da99501dace5901e102948336ea/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.12.0] /Users/allisono/.gradle/caches/8.11.1/transforms/d7867da99501dace5901e102948336ea/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/1a61b55e0894ccacdf185542e9cf65c5/transformed/constraintlayout-2.2.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/1a61b55e0894ccacdf185542e9cf65c5/transformed/constraintlayout-2.2.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/allisono/.gradle/caches/8.11.1/transforms/6a17b739708319f021972094dabd72e6/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/allisono/.gradle/caches/8.11.1/transforms/6a17b739708319f021972094dabd72e6/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/allisono/.gradle/caches/8.11.1/transforms/c7e0338004c948cc6d4699fce0c03bf9/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/allisono/.gradle/caches/8.11.1/transforms/c7e0338004c948cc6d4699fce0c03bf9/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
-MERGED from [com.github.bumptech.glide:glide:4.16.0] /Users/allisono/.gradle/caches/8.11.1/transforms/129cef3063a268c424b957adf593ccb6/transformed/glide-4.16.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:glide:4.16.0] /Users/allisono/.gradle/caches/8.11.1/transforms/129cef3063a268c424b957adf593ccb6/transformed/glide-4.16.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/b93a65a69d02f5ece631a01f069193ab/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/b93a65a69d02f5ece631a01f069193ab/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment-ktx:1.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/ff856a55253fe52bb46d8a29d7a957c6/transformed/fragment-ktx-1.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment-ktx:1.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/ff856a55253fe52bb46d8a29d7a957c6/transformed/fragment-ktx-1.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/2b56859d50c8661891206234b9d68da9/transformed/fragment-1.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/2b56859d50c8661891206234b9d68da9/transformed/fragment-1.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity-ktx:1.10.1] /Users/allisono/.gradle/caches/8.11.1/transforms/3131c0e23ec001d96d1d4f9bfeb72d70/transformed/activity-ktx-1.10.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-ktx:1.10.1] /Users/allisono/.gradle/caches/8.11.1/transforms/3131c0e23ec001d96d1d4f9bfeb72d70/transformed/activity-ktx-1.10.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity:1.10.1] /Users/allisono/.gradle/caches/8.11.1/transforms/fbe7fdbae1cd3f2f542bfc2454a5ecaa/transformed/activity-1.10.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.10.1] /Users/allisono/.gradle/caches/8.11.1/transforms/fbe7fdbae1cd3f2f542bfc2454a5ecaa/transformed/activity-1.10.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media3:media3-ui:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/efbdecb245c735fc069ed16fcd977a1f/transformed/media3-ui-1.7.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media3:media3-ui:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/efbdecb245c735fc069ed16fcd977a1f/transformed/media3-ui-1.7.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media3:media3-extractor:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/52059bf7119a01a61aabf97b83927d32/transformed/media3-extractor-1.7.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media3:media3-extractor:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/52059bf7119a01a61aabf97b83927d32/transformed/media3-extractor-1.7.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media3:media3-container:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/c5ea214b1f511ac9d0ab1bb05bd7f8ba/transformed/media3-container-1.7.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media3:media3-container:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/c5ea214b1f511ac9d0ab1bb05bd7f8ba/transformed/media3-container-1.7.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media3:media3-datasource:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/f0b8749511f9a620690fdee32b795214/transformed/media3-datasource-1.7.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media3:media3-datasource:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/f0b8749511f9a620690fdee32b795214/transformed/media3-datasource-1.7.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media3:media3-decoder:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/d5722b8617a7ca06d353dae5c841b331/transformed/media3-decoder-1.7.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media3:media3-decoder:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/d5722b8617a7ca06d353dae5c841b331/transformed/media3-decoder-1.7.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media3:media3-database:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/1e5e33192373423bec8cbf3a3ec292dc/transformed/media3-database-1.7.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media3:media3-database:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/1e5e33192373423bec8cbf3a3ec292dc/transformed/media3-database-1.7.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media3:media3-common:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/a2c20e7c4989307b2986e520c3807089/transformed/media3-common-1.7.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media3:media3-common:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/a2c20e7c4989307b2986e520c3807089/transformed/media3-common-1.7.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media3:media3-exoplayer:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/ff94fd977e30ab3e1ac50729804e567e/transformed/media3-exoplayer-1.7.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media3:media3-exoplayer:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/ff94fd977e30ab3e1ac50729804e567e/transformed/media3-exoplayer-1.7.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/4a14500fe9733f9ec37fa6cb0d9a4cb5/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/4a14500fe9733f9ec37fa6cb0d9a4cb5/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/0165750a35ead6a759bdbf5c604984a6/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/0165750a35ead6a759bdbf5c604984a6/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/allisono/.gradle/caches/8.11.1/transforms/ac07acde835b895d2873a711730765f8/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/allisono/.gradle/caches/8.11.1/transforms/ac07acde835b895d2873a711730765f8/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/9c8b23ba6f75aa63bfc6d803c6dde442/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/9c8b23ba6f75aa63bfc6d803c6dde442/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/d8e376594e646d8eb90cb0e2b486f6a1/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/d8e376594e646d8eb90cb0e2b486f6a1/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.5.0] /Users/allisono/.gradle/caches/8.11.1/transforms/ccfad93cfd996ba0333b78daa7fb6924/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.transition:transition:1.5.0] /Users/allisono/.gradle/caches/8.11.1/transforms/ccfad93cfd996ba0333b78daa7fb6924/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/6b6341e4e149dbb443e290f293b8905b/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/6b6341e4e149dbb443e290f293b8905b/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/52a626755a2178a3752e2d8659a16927/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/52a626755a2178a3752e2d8659a16927/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/4e854a79cc1c2a4a9e98d402b27648fe/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/4e854a79cc1c2a4a9e98d402b27648fe/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/1cd0b08392a9a34da77a10b544dde15f/transformed/recyclerview-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/1cd0b08392a9a34da77a10b544dde15f/transformed/recyclerview-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/3621c10df1244a084ed824e5e8d81fb8/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/3621c10df1244a084ed824e5e8d81fb8/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/14873c4b894d82e252c3b6d80bfd1f7e/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/14873c4b894d82e252c3b6d80bfd1f7e/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/afc24ad3e9655055406b1a39606873ec/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/afc24ad3e9655055406b1a39606873ec/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/e07955a96d70699cfb8ab8bef475124d/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/e07955a96d70699cfb8ab8bef475124d/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.window:window:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/98090201f7907f85d639cdf9428b09f3/transformed/window-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.window:window:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/98090201f7907f85d639cdf9428b09f3/transformed/window-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/46985ca6f9415910f2d90154e706cdae/transformed/core-1.15.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/46985ca6f9415910f2d90154e706cdae/transformed/core-1.15.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/4a1fbc439d54d9e56de918acc0113641/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/4a1fbc439d54d9e56de918acc0113641/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/515ee9f76e209fa23dd6b0a0ac889f07/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/515ee9f76e209fa23dd6b0a0ac889f07/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/65863b6e5dae09ab51470687c6124434/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/65863b6e5dae09ab51470687c6124434/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/aaf0c8731455f726cc542c461175f255/transformed/core-12.1.0/AndroidManifest.xml:5:5-44
-MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/aaf0c8731455f726cc542c461175f255/transformed/core-12.1.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/c2582dea2dd87e57349ab1eb3c444950/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/c2582dea2dd87e57349ab1eb3c444950/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/ea34cb946edad4987e5a75c7a652daed/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/ea34cb946edad4987e5a75c7a652daed/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/010bf072232796aa0d3ccfad42393d86/transformed/lifecycle-livedata-core-ktx-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/010bf072232796aa0d3ccfad42393d86/transformed/lifecycle-livedata-core-ktx-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/7f144c5ce717b39aae5b6a0f54880615/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/7f144c5ce717b39aae5b6a0f54880615/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/b9eac9c3427ef893dd096b736af069ac/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/b9eac9c3427ef893dd096b736af069ac/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/5fb80e45366aa1d266c55eb1bf91cdf8/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/5fb80e45366aa1d266c55eb1bf91cdf8/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/ad87d32e6f605b7c3b5c71f610b427e2/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/ad87d32e6f605b7c3b5c71f610b427e2/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/49ec9b74213b46208e7a1c7616e48654/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/49ec9b74213b46208e7a1c7616e48654/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/4ecfc20b2cce37777adb86ae71e91763/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/4ecfc20b2cce37777adb86ae71e91763/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core-ktx:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/6826cb2cea31d3dbf35007dde3df156b/transformed/core-ktx-1.15.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/6826cb2cea31d3dbf35007dde3df156b/transformed/core-ktx-1.15.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-splashscreen:1.0.1] /Users/allisono/.gradle/caches/8.11.1/transforms/08362ca887298c5d355941f00b3e30e8/transformed/core-splashscreen-1.0.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core-splashscreen:1.0.1] /Users/allisono/.gradle/caches/8.11.1/transforms/08362ca887298c5d355941f00b3e30e8/transformed/core-splashscreen-1.0.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core-viewtree:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/552ad272205e5ef98f8b183ccd7dd430/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-viewtree:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/552ad272205e5ef98f8b183ccd7dd430/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.squareup.picasso:picasso:2.71828] /Users/allisono/.gradle/caches/8.11.1/transforms/f22e27a5d3e3e0d6cfd3d78ca118f18a/transformed/picasso-2.71828/AndroidManifest.xml:5:5-44
-MERGED from [com.squareup.picasso:picasso:2.71828] /Users/allisono/.gradle/caches/8.11.1/transforms/f22e27a5d3e3e0d6cfd3d78ca118f18a/transformed/picasso-2.71828/AndroidManifest.xml:5:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/6650819a67902006ae7cbd069c1d3e68/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/6650819a67902006ae7cbd069c1d3e68/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/7f882a1b187bb9885a85ebc73d9eef07/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/7f882a1b187bb9885a85ebc73d9eef07/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/71ba0dcaee12382a28af0c5b3bd67062/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/71ba0dcaee12382a28af0c5b3bd67062/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
-MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] /Users/allisono/.gradle/caches/8.11.1/transforms/7c5c06b3144c48113ffa19f9690ca2c8/transformed/gifdecoder-4.16.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] /Users/allisono/.gradle/caches/8.11.1/transforms/7c5c06b3144c48113ffa19f9690ca2c8/transformed/gifdecoder-4.16.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.6] /Users/allisono/.gradle/caches/8.11.1/transforms/815447a66471969899c80c9e91771904/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.6] /Users/allisono/.gradle/caches/8.11.1/transforms/815447a66471969899c80c9e91771904/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/allisono/.gradle/caches/8.11.1/transforms/2fe19dcee298bc54d346f776a47f396c/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/allisono/.gradle/caches/8.11.1/transforms/2fe19dcee298bc54d346f776a47f396c/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.tracing:tracing:1.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/179b790e247d9a6a142ec6ee67656551/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.tracing:tracing:1.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/179b790e247d9a6a142ec6ee67656551/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/144f20da22dcb9065d606ad38cbf3ea4/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/144f20da22dcb9065d606ad38cbf3ea4/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4fa6389c8930b222eb77398f9cdc4a69/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4fa6389c8930b222eb77398f9cdc4a69/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/c2f80fadcbe15202e22f9e9223fca985/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/c2f80fadcbe15202e22f9e9223fca985/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/ecfb80deec6f5809b20c3f43c0948b95/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/ecfb80deec6f5809b20c3f43c0948b95/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/00d13c1a4bf1335ea88fef8d5ad4bdba/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/00d13c1a4bf1335ea88fef8d5ad4bdba/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/9b7c7e71e21201cbc309b0e48cd5f401/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/9b7c7e71e21201cbc309b0e48cd5f401/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/allisono/.gradle/caches/8.11.1/transforms/719c204dbb6565bdc233a19191c42665/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/allisono/.gradle/caches/8.11.1/transforms/719c204dbb6565bdc233a19191c42665/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
-MERGED from [com.makeramen:roundedimageview:2.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/0c33ef125264c6ad8719689bd00ac630/transformed/roundedimageview-2.3.0/AndroidManifest.xml:7:5-43
-MERGED from [com.makeramen:roundedimageview:2.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/0c33ef125264c6ad8719689bd00ac630/transformed/roundedimageview-2.3.0/AndroidManifest.xml:7:5-43
-MERGED from [com.android.support:exifinterface:27.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/53c2c558e4c6c9e14aba5744762e0400/transformed/exifinterface-27.1.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:exifinterface:27.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/53c2c558e4c6c9e14aba5744762e0400/transformed/exifinterface-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:8.9.1] /Users/allisono/.gradle/caches/8.11.1/transforms/0deaf7857cd9b4fa00202188aa8fcbbd/transformed/viewbinding-8.9.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.9.1] /Users/allisono/.gradle/caches/8.11.1/transforms/0deaf7857cd9b4fa00202188aa8fcbbd/transformed/viewbinding-8.9.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/21e37b0f244fd82741c1b819ee537ac9/transformed/navigation-common-2.8.9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/21e37b0f244fd82741c1b819ee537ac9/transformed/navigation-common-2.8.9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/337dac24d2e90d8d6cfa3716262f2f07/transformed/navigation-common-ktx-2.8.9/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/337dac24d2e90d8d6cfa3716262f2f07/transformed/navigation-common-ktx-2.8.9/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/4ddeed9d1e6f3c46950922dab2cb82d5/transformed/navigation-runtime-2.8.9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/4ddeed9d1e6f3c46950922dab2cb82d5/transformed/navigation-runtime-2.8.9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/10f19042fb0d17f1ad4d90a656c1b412/transformed/navigation-runtime-ktx-2.8.9/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/10f19042fb0d17f1ad4d90a656c1b412/transformed/navigation-runtime-ktx-2.8.9/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/59d312e057a74783baeadee3f1e05533/transformed/navigation-fragment-2.8.9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/59d312e057a74783baeadee3f1e05533/transformed/navigation-fragment-2.8.9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/488e7da9851e7b12bebe084ae9c6109e/transformed/navigation-fragment-ktx-2.8.9/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/488e7da9851e7b12bebe084ae9c6109e/transformed/navigation-fragment-ktx-2.8.9/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/af2226b065dc82f4818fd82e563e0872/transformed/navigation-ui-ktx-2.8.9/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/af2226b065dc82f4818fd82e563e0872/transformed/navigation-ui-ktx-2.8.9/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/59c2aa785662cad68e044c52fb073788/transformed/navigation-ui-2.8.9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.8.9] /Users/allisono/.gradle/caches/8.11.1/transforms/59c2aa785662cad68e044c52fb073788/transformed/navigation-ui-2.8.9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] /Users/allisono/.gradle/caches/8.11.1/transforms/d1dc09f2918392c549ff3a5e153d762c/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] /Users/allisono/.gradle/caches/8.11.1/transforms/d1dc09f2918392c549ff3a5e153d762c/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/a92aad6fec98ea12e669e8da51cae266/transformed/constraintlayout-2.2.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/a92aad6fec98ea12e669e8da51cae266/transformed/constraintlayout-2.2.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/allisono/.gradle/caches/8.11.1/transforms/ad1fb95f52a73c4e05fb14e5efc82c96/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/allisono/.gradle/caches/8.11.1/transforms/ad1fb95f52a73c4e05fb14e5efc82c96/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/allisono/.gradle/caches/8.11.1/transforms/06c8d01142d74b3f2fcd246c1c712157/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/allisono/.gradle/caches/8.11.1/transforms/06c8d01142d74b3f2fcd246c1c712157/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [com.github.bumptech.glide:glide:4.16.0] /Users/allisono/.gradle/caches/8.11.1/transforms/9247b4d0d3f0535f8b620e44b93890d5/transformed/glide-4.16.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.16.0] /Users/allisono/.gradle/caches/8.11.1/transforms/9247b4d0d3f0535f8b620e44b93890d5/transformed/glide-4.16.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-auth:23.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4d98a9e7b4cbca06f7fd676c5eb12ee9/transformed/firebase-auth-23.2.1/AndroidManifest.xml:21:5-23:151
+MERGED from [com.google.firebase:firebase-auth:23.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4d98a9e7b4cbca06f7fd676c5eb12ee9/transformed/firebase-auth-23.2.1/AndroidManifest.xml:21:5-23:151
+MERGED from [com.google.maps.android:maps-compose:2.11.2] /Users/allisono/.gradle/caches/8.11.1/transforms/ea86b4442939d1c9935a7514c71427ef/transformed/maps-compose-2.11.2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.maps.android:maps-compose:2.11.2] /Users/allisono/.gradle/caches/8.11.1/transforms/ea86b4442939d1c9935a7514c71427ef/transformed/maps-compose-2.11.2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.maps.android:maps-ktx:3.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/2c819ec6bb88facf2ded0e60b2e95140/transformed/maps-ktx-3.3.0/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.maps.android:maps-ktx:3.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/2c819ec6bb88facf2ded0e60b2e95140/transformed/maps-ktx-3.3.0/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.gms:play-services-maps:19.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/61988a2e658ed021f189642b3458dd1c/transformed/play-services-maps-19.2.0/AndroidManifest.xml:26:5-43
+MERGED from [com.google.android.gms:play-services-maps:19.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/61988a2e658ed021f189642b3458dd1c/transformed/play-services-maps-19.2.0/AndroidManifest.xml:26:5-43
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/03bef3886d7d8d1a6c2e6377d9d0bf21/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/03bef3886d7d8d1a6c2e6377d9d0bf21/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-location:21.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/88cbe40e73068d204f0ccd782b1bede5/transformed/play-services-location-21.3.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-location:21.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/88cbe40e73068d204f0ccd782b1bede5/transformed/play-services-location-21.3.0/AndroidManifest.xml:4:5-44
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] /Users/allisono/.gradle/caches/8.11.1/transforms/8679b9afb3a631384a928b847e9710e3/transformed/credentials-1.2.0-rc01/AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] /Users/allisono/.gradle/caches/8.11.1/transforms/8679b9afb3a631384a928b847e9710e3/transformed/credentials-1.2.0-rc01/AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/allisono/.gradle/caches/8.11.1/transforms/9bade732b8718ae8122a61a325bf83d5/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:21:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/allisono/.gradle/caches/8.11.1/transforms/9bade732b8718ae8122a61a325bf83d5/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/allisono/.gradle/caches/8.11.1/transforms/f510143096bb9b25aebf824730b8e0f7/transformed/play-services-auth-20.7.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/allisono/.gradle/caches/8.11.1/transforms/f510143096bb9b25aebf824730b8e0f7/transformed/play-services-auth-20.7.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /Users/allisono/.gradle/caches/8.11.1/transforms/3cee0bc2ca249d50f022f4ed2272700d/transformed/play-services-auth-api-phone-18.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /Users/allisono/.gradle/caches/8.11.1/transforms/3cee0bc2ca249d50f022f4ed2272700d/transformed/play-services-auth-api-phone-18.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] /Users/allisono/.gradle/caches/8.11.1/transforms/467429a5cad76d7a936fafb540e3d50f/transformed/recaptcha-18.6.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] /Users/allisono/.gradle/caches/8.11.1/transforms/467429a5cad76d7a936fafb540e3d50f/transformed/recaptcha-18.6.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.play:integrity:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/4f65b0f8f96d188ed37657bdbeaa4a3e/transformed/integrity-1.3.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/4f65b0f8f96d188ed37657bdbeaa4a3e/transformed/integrity-1.3.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/6a6af90c6c3906dcdaa3abfe43b65112/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/6a6af90c6c3906dcdaa3abfe43b65112/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/36cc415c1fec253a242828e81d1ea124/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/36cc415c1fec253a242828e81d1ea124/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/e1874505788cf892c6faaf19a70bd469/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/e1874505788cf892c6faaf19a70bd469/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/16fbfa0c2249503a663cc32e986d6536/transformed/firebase-common-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/16fbfa0c2249503a663cc32e986d6536/transformed/firebase-common-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/b94e90ac98125df54e81b72a963e9539/transformed/play-services-fido-20.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/b94e90ac98125df54e81b72a963e9539/transformed/play-services-fido-20.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/allisono/.gradle/caches/8.11.1/transforms/b56c9eb376a7ad51b6e0f2deffdcbbfa/transformed/play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/allisono/.gradle/caches/8.11.1/transforms/b56c9eb376a7ad51b6e0f2deffdcbbfa/transformed/play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/allisono/.gradle/caches/8.11.1/transforms/8ed707b0b7703482efe5a889416cbb51/transformed/play-services-base-18.5.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/allisono/.gradle/caches/8.11.1/transforms/8ed707b0b7703482efe5a889416cbb51/transformed/play-services-base-18.5.0/AndroidManifest.xml:3:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/48883440029052a3f99ae26e849366c8/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/48883440029052a3f99ae26e849366c8/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/4f282c369c087540aadef54cdcb495d1/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/4f282c369c087540aadef54cdcb495d1/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/c1d0fbd174372e6b101f4a72b78c46f3/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/c1d0fbd174372e6b101f4a72b78c46f3/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] /Users/allisono/.gradle/caches/8.11.1/transforms/080525fde589b5ee56bfb00222efa8de/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] /Users/allisono/.gradle/caches/8.11.1/transforms/080525fde589b5ee56bfb00222efa8de/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/82153c20ec1d8c035d96edc47e0e7edc/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/82153c20ec1d8c035d96edc47e0e7edc/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/8d0a0c2b2173605ef99de97e6435631f/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/8d0a0c2b2173605ef99de97e6435631f/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/95ea5f8ef782dd5436a00cebfc6d5745/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/95ea5f8ef782dd5436a00cebfc6d5745/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-ui:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/bf5ad8153c17b988434b756a940e7ad8/transformed/media3-ui-1.7.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-ui:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/bf5ad8153c17b988434b756a940e7ad8/transformed/media3-ui-1.7.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-extractor:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/93fd9061ea8d54a37160859446c5279b/transformed/media3-extractor-1.7.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-extractor:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/93fd9061ea8d54a37160859446c5279b/transformed/media3-extractor-1.7.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-container:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/2fca06c87da6b9e383d0d2bf57c7271a/transformed/media3-container-1.7.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-container:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/2fca06c87da6b9e383d0d2bf57c7271a/transformed/media3-container-1.7.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-datasource:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/e3aea62f3107cb1f4ef14b9eedd03bc4/transformed/media3-datasource-1.7.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-datasource:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/e3aea62f3107cb1f4ef14b9eedd03bc4/transformed/media3-datasource-1.7.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-decoder:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4493707462f675cd9f5e29e71bdf4ccf/transformed/media3-decoder-1.7.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-decoder:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4493707462f675cd9f5e29e71bdf4ccf/transformed/media3-decoder-1.7.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-database:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/788a5188cc2fae720e2127243acbf42f/transformed/media3-database-1.7.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-database:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/788a5188cc2fae720e2127243acbf42f/transformed/media3-database-1.7.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-common:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/a96df1b8e6af6be896fa5d5049eb7d61/transformed/media3-common-1.7.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-common:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/a96df1b8e6af6be896fa5d5049eb7d61/transformed/media3-common-1.7.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-exoplayer:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/36d048f3d849cc1977fdc63d6371e7eb/transformed/media3-exoplayer-1.7.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-exoplayer:1.7.1] /Users/allisono/.gradle/caches/8.11.1/transforms/36d048f3d849cc1977fdc63d6371e7eb/transformed/media3-exoplayer-1.7.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/allisono/.gradle/caches/8.11.1/transforms/620d4dcdf3e9351833c4717b0d52f8fb/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/allisono/.gradle/caches/8.11.1/transforms/620d4dcdf3e9351833c4717b0d52f8fb/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/c2d0298c5e72b1866652f93c370f36d9/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/c2d0298c5e72b1866652f93c370f36d9/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/1a7b66763da3146b221c52f6b8e6e540/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/1a7b66763da3146b221c52f6b8e6e540/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/ba4efa2d35a349fabaf70796b7855b9f/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/ba4efa2d35a349fabaf70796b7855b9f/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/bc366f193d7793d4e11f96bc97130ea2/transformed/recyclerview-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/bc366f193d7793d4e11f96bc97130ea2/transformed/recyclerview-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/c525383cc1b5cf03d95b7a4b6b48854c/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/c525383cc1b5cf03d95b7a4b6b48854c/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/fd51accc58bbf9dd61a14ae2e9c63165/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/fd51accc58bbf9dd61a14ae2e9c63165/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/6aaa66fdf736064c0c9d7281522d05dd/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/6aaa66fdf736064c0c9d7281522d05dd/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/98437f7209d933c341f57696e134e1a8/transformed/window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/98437f7209d933c341f57696e134e1a8/transformed/window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.foundation:foundation:1.3.1] /Users/allisono/.gradle/caches/8.11.1/transforms/3b0edbc1ad2ac9904b11aa6ebc756a73/transformed/foundation-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation:1.3.1] /Users/allisono/.gradle/caches/8.11.1/transforms/3b0edbc1ad2ac9904b11aa6ebc756a73/transformed/foundation-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation:1.3.1] /Users/allisono/.gradle/caches/8.11.1/transforms/8f9c157ffd0cc1556834fb4b5955e067/transformed/animation-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation:1.3.1] /Users/allisono/.gradle/caches/8.11.1/transforms/8f9c157ffd0cc1556834fb4b5955e067/transformed/animation-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation-layout:1.3.1] /Users/allisono/.gradle/caches/8.11.1/transforms/82e0a4c71ee46fd0e3b2c7337b6cfae0/transformed/foundation-layout-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation-layout:1.3.1] /Users/allisono/.gradle/caches/8.11.1/transforms/82e0a4c71ee46fd0e3b2c7337b6cfae0/transformed/foundation-layout-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation-core:1.3.1] /Users/allisono/.gradle/caches/8.11.1/transforms/d4800160f8042709772d9797e54d8171/transformed/animation-core-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation-core:1.3.1] /Users/allisono/.gradle/caches/8.11.1/transforms/d4800160f8042709772d9797e54d8171/transformed/animation-core-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui:1.3.1] /Users/allisono/.gradle/caches/8.11.1/transforms/1b284a7d99381ac3e8362fa4cc1d91fb/transformed/ui-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui:1.3.1] /Users/allisono/.gradle/caches/8.11.1/transforms/1b284a7d99381ac3e8362fa4cc1d91fb/transformed/ui-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-text:1.3.1] /Users/allisono/.gradle/caches/8.11.1/transforms/55ad78306aa7ee89010fecea65386009/transformed/ui-text-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-text:1.3.1] /Users/allisono/.gradle/caches/8.11.1/transforms/55ad78306aa7ee89010fecea65386009/transformed/ui-text-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/7e63d0cc16c09e02792bc00921d1de04/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/7e63d0cc16c09e02792bc00921d1de04/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/49bb58ab0f6487e68e4a5149719679cb/transformed/core-1.15.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/49bb58ab0f6487e68e4a5149719679cb/transformed/core-1.15.0/AndroidManifest.xml:20:5-44
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/5f8fe7b66949cec28898ec8460e682af/transformed/core-12.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/5f8fe7b66949cec28898ec8460e682af/transformed/core-12.1.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/32def8351ff7e681a8a37708851f7ee5/transformed/fragment-ktx-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/32def8351ff7e681a8a37708851f7ee5/transformed/fragment-ktx-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.0] /Users/allisono/.gradle/caches/8.11.1/transforms/ac47ccead4825e16f5e2418aeeb11063/transformed/lifecycle-livedata-core-2.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.0] /Users/allisono/.gradle/caches/8.11.1/transforms/ac47ccead4825e16f5e2418aeeb11063/transformed/lifecycle-livedata-core-2.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.9.0] /Users/allisono/.gradle/caches/8.11.1/transforms/2d407328218fc2a884b901310eac6e4a/transformed/lifecycle-livedata-core-ktx-2.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.9.0] /Users/allisono/.gradle/caches/8.11.1/transforms/2d407328218fc2a884b901310eac6e4a/transformed/lifecycle-livedata-core-ktx-2.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.9.0] /Users/allisono/.gradle/caches/8.11.1/transforms/6ec247ca9c443dd0436ba14e0807c7e0/transformed/lifecycle-livedata-2.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.9.0] /Users/allisono/.gradle/caches/8.11.1/transforms/6ec247ca9c443dd0436ba14e0807c7e0/transformed/lifecycle-livedata-2.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.0] /Users/allisono/.gradle/caches/8.11.1/transforms/d2d1ce279ab7e9350494931bf8be4fab/transformed/lifecycle-viewmodel-savedstate-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.0] /Users/allisono/.gradle/caches/8.11.1/transforms/d2d1ce279ab7e9350494931bf8be4fab/transformed/lifecycle-viewmodel-savedstate-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.10.1] /Users/allisono/.gradle/caches/8.11.1/transforms/c342673b53a2e3dd359db61d24387604/transformed/activity-ktx-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.10.1] /Users/allisono/.gradle/caches/8.11.1/transforms/c342673b53a2e3dd359db61d24387604/transformed/activity-ktx-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.0] /Users/allisono/.gradle/caches/8.11.1/transforms/75025ef9964687d471ec67088a329f0f/transformed/lifecycle-runtime-ktx/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.0] /Users/allisono/.gradle/caches/8.11.1/transforms/75025ef9964687d471ec67088a329f0f/transformed/lifecycle-runtime-ktx/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.0] /Users/allisono/.gradle/caches/8.11.1/transforms/381504b51bb7d9a4c2553891930a88fb/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.0] /Users/allisono/.gradle/caches/8.11.1/transforms/381504b51bb7d9a4c2553891930a88fb/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/2524474f0308480527a1d9822e1a0466/transformed/savedstate-ktx-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/2524474f0308480527a1d9822e1a0466/transformed/savedstate-ktx-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-android:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/f7c00b091e8e14f1a98f092d021aff44/transformed/savedstate-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-android:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/f7c00b091e8e14f1a98f092d021aff44/transformed/savedstate-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.9.0] /Users/allisono/.gradle/caches/8.11.1/transforms/081e0d9dc48d19a96efbcd4bab8554e0/transformed/lifecycle-viewmodel-2.9.0/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.9.0] /Users/allisono/.gradle/caches/8.11.1/transforms/081e0d9dc48d19a96efbcd4bab8554e0/transformed/lifecycle-viewmodel-2.9.0/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.0] /Users/allisono/.gradle/caches/8.11.1/transforms/ce425493e9dc380cfb60230ecfce5ec3/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.0] /Users/allisono/.gradle/caches/8.11.1/transforms/ce425493e9dc380cfb60230ecfce5ec3/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.0] /Users/allisono/.gradle/caches/8.11.1/transforms/1ede64362e514849fc64fb9bc98e400c/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.0] /Users/allisono/.gradle/caches/8.11.1/transforms/1ede64362e514849fc64fb9bc98e400c/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.0] /Users/allisono/.gradle/caches/8.11.1/transforms/2854a1379f903dea8a6a7a2c244cc282/transformed/lifecycle-viewmodel-ktx-2.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.0] /Users/allisono/.gradle/caches/8.11.1/transforms/2854a1379f903dea8a6a7a2c244cc282/transformed/lifecycle-viewmodel-ktx-2.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics:1.3.1] /Users/allisono/.gradle/caches/8.11.1/transforms/44b1b32589145f4241515a67d983ddfa/transformed/ui-graphics-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics:1.3.1] /Users/allisono/.gradle/caches/8.11.1/transforms/44b1b32589145f4241515a67d983ddfa/transformed/ui-graphics-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-unit:1.3.1] /Users/allisono/.gradle/caches/8.11.1/transforms/c0814428348e0ad58137c4b1746f2e5f/transformed/ui-unit-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-unit:1.3.1] /Users/allisono/.gradle/caches/8.11.1/transforms/c0814428348e0ad58137c4b1746f2e5f/transformed/ui-unit-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-geometry:1.3.1] /Users/allisono/.gradle/caches/8.11.1/transforms/e58bd67d2e7139617d9b1682ef62be05/transformed/ui-geometry-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-geometry:1.3.1] /Users/allisono/.gradle/caches/8.11.1/transforms/e58bd67d2e7139617d9b1682ef62be05/transformed/ui-geometry-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable:1.3.1] /Users/allisono/.gradle/caches/8.11.1/transforms/83cb649b79ae1d5382231af076da7121/transformed/runtime-saveable-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable:1.3.1] /Users/allisono/.gradle/caches/8.11.1/transforms/83cb649b79ae1d5382231af076da7121/transformed/runtime-saveable-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime:1.3.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4bdef411d3b56a5797d6fa11a51bc39a/transformed/runtime-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime:1.3.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4bdef411d3b56a5797d6fa11a51bc39a/transformed/runtime-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/db0043347543fa25f16d9cd52fe1a2ef/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/db0043347543fa25f16d9cd52fe1a2ef/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/c506415cdf61ec236b1ef932f12fa0c2/transformed/play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/c506415cdf61ec236b1ef932f12fa0c2/transformed/play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/6c0ec02030cbb07328c0fc97908056cf/transformed/fragment-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/6c0ec02030cbb07328c0fc97908056cf/transformed/fragment-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.10.1] /Users/allisono/.gradle/caches/8.11.1/transforms/aa5d7046e0602105fa6f02e8586f2169/transformed/activity-1.10.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.10.1] /Users/allisono/.gradle/caches/8.11.1/transforms/aa5d7046e0602105fa6f02e8586f2169/transformed/activity-1.10.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/3e8ee3611f0f23f5a2bc169090569759/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/3e8ee3611f0f23f5a2bc169090569759/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/eaeb9c39a60abc204e6776c1f9a38fe2/transformed/core-ktx-1.15.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/eaeb9c39a60abc204e6776c1f9a38fe2/transformed/core-ktx-1.15.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-splashscreen:1.0.1] /Users/allisono/.gradle/caches/8.11.1/transforms/734f4784372115230df12dae46d819b8/transformed/core-splashscreen-1.0.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-splashscreen:1.0.1] /Users/allisono/.gradle/caches/8.11.1/transforms/734f4784372115230df12dae46d819b8/transformed/core-splashscreen-1.0.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/acaa4b0584063b8e462d68410f1aaa2f/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/acaa4b0584063b8e462d68410f1aaa2f/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/allisono/.gradle/caches/8.11.1/transforms/068f054d0c2f00f07393df9d1489d9fb/transformed/picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/allisono/.gradle/caches/8.11.1/transforms/068f054d0c2f00f07393df9d1489d9fb/transformed/picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/allisono/.gradle/caches/8.11.1/transforms/7b68d3132885d13ac0b793a734401505/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/allisono/.gradle/caches/8.11.1/transforms/7b68d3132885d13ac0b793a734401505/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/9ad2245ff2f03a4878e426c97dd58d4e/transformed/googleid-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/9ad2245ff2f03a4878e426c97dd58d4e/transformed/googleid-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/allisono/.gradle/caches/8.11.1/transforms/508569ae1711c76cfdf782788d90c559/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/allisono/.gradle/caches/8.11.1/transforms/508569ae1711c76cfdf782788d90c559/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-util:1.3.1] /Users/allisono/.gradle/caches/8.11.1/transforms/e9cf999b004c635d13146e158a8e621c/transformed/ui-util-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-util:1.3.1] /Users/allisono/.gradle/caches/8.11.1/transforms/e9cf999b004c635d13146e158a8e621c/transformed/ui-util-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/02c33bc6c11b01b0fde242d86d3b871c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/02c33bc6c11b01b0fde242d86d3b871c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/03e295837aab3e1a12a46e08b838c29f/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/03e295837aab3e1a12a46e08b838c29f/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/b8f504aae1bced29e617bcc608efeb2a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/b8f504aae1bced29e617bcc608efeb2a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] /Users/allisono/.gradle/caches/8.11.1/transforms/e65b8df38db0b0dbd5da62b6c1815355/transformed/gifdecoder-4.16.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] /Users/allisono/.gradle/caches/8.11.1/transforms/e65b8df38db0b0dbd5da62b6c1815355/transformed/gifdecoder-4.16.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /Users/allisono/.gradle/caches/8.11.1/transforms/80dd8f7653a3839dbd4420da941291b4/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /Users/allisono/.gradle/caches/8.11.1/transforms/80dd8f7653a3839dbd4420da941291b4/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/d01b4189ea18c124c13989ef390c2f3e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/d01b4189ea18c124c13989ef390c2f3e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/8319810a38431b86d27be1db0f0dd70a/transformed/firebase-components-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/8319810a38431b86d27be1db0f0dd70a/transformed/firebase-components-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/allisono/.gradle/caches/8.11.1/transforms/da043742b34701e3f06fd057e596b4c2/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/allisono/.gradle/caches/8.11.1/transforms/da043742b34701e3f06fd057e596b4c2/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/0326e1218f2bee9278e3c3bedcfe05d7/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/0326e1218f2bee9278e3c3bedcfe05d7/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/a173f5fdb561648824e3218aa0346c59/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/a173f5fdb561648824e3218aa0346c59/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/6f6cd1bd5355ef508d89ab167841054b/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/6f6cd1bd5355ef508d89ab167841054b/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/b44cb73feb1a86b6f5c070380aa2e586/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/b44cb73feb1a86b6f5c070380aa2e586/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/e2f974863630adea64606f39a688a089/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/e2f974863630adea64606f39a688a089/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.makeramen:roundedimageview:2.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/618c783bd44b8f59b0eb126a1cd078b5/transformed/roundedimageview-2.3.0/AndroidManifest.xml:7:5-43
+MERGED from [com.makeramen:roundedimageview:2.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/618c783bd44b8f59b0eb126a1cd078b5/transformed/roundedimageview-2.3.0/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:exifinterface:27.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/8ebe1a0641080484a483bae7caa0aa94/transformed/exifinterface-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] /Users/allisono/.gradle/caches/8.11.1/transforms/8ebe1a0641080484a483bae7caa0aa94/transformed/exifinterface-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.play:core-common:2.0.3] /Users/allisono/.gradle/caches/8.11.1/transforms/19fcca64f01b3c83acdead41bd5a3124/transformed/core-common-2.0.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.play:core-common:2.0.3] /Users/allisono/.gradle/caches/8.11.1/transforms/19fcca64f01b3c83acdead41bd5a3124/transformed/core-common-2.0.3/AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:23.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4d98a9e7b4cbca06f7fd676c5eb12ee9/transformed/firebase-auth-23.2.1/AndroidManifest.xml:23:9-148
 	android:targetSdkVersion
 		INJECTED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from /Users/allisono/Documents/Diplomado/Module8/M8_Practicas/Practica2_AMOM/app/src/main/AndroidManifest.xml
-provider#androidx.startup.InitializationProvider
-ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/0165750a35ead6a759bdbf5c604984a6/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/ad87d32e6f605b7c3b5c71f610b427e2/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/ad87d32e6f605b7c3b5c71f610b427e2/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/71ba0dcaee12382a28af0c5b3bd67062/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/71ba0dcaee12382a28af0c5b3bd67062/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/allisono/.gradle/caches/8.11.1/transforms/2fe19dcee298bc54d346f776a47f396c/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/allisono/.gradle/caches/8.11.1/transforms/2fe19dcee298bc54d346f776a47f396c/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
-	tools:node
-		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/0165750a35ead6a759bdbf5c604984a6/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
-	android:authorities
-		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/0165750a35ead6a759bdbf5c604984a6/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:23.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4d98a9e7b4cbca06f7fd676c5eb12ee9/transformed/firebase-auth-23.2.1/AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:23.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4d98a9e7b4cbca06f7fd676c5eb12ee9/transformed/firebase-auth-23.2.1/AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:23.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4d98a9e7b4cbca06f7fd676c5eb12ee9/transformed/firebase-auth-23.2.1/AndroidManifest.xml:33:13-44
 	android:exported
-		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/0165750a35ead6a759bdbf5c604984a6/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+		ADDED from [com.google.firebase:firebase-auth:23.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4d98a9e7b4cbca06f7fd676c5eb12ee9/transformed/firebase-auth-23.2.1/AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:23.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4d98a9e7b4cbca06f7fd676c5eb12ee9/transformed/firebase-auth-23.2.1/AndroidManifest.xml:34:13-72
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/0165750a35ead6a759bdbf5c604984a6/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
-meta-data#androidx.emoji2.text.EmojiCompatInitializer
-ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/0165750a35ead6a759bdbf5c604984a6/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
-	android:value
-		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/0165750a35ead6a759bdbf5c604984a6/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+		ADDED from [com.google.firebase:firebase-auth:23.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4d98a9e7b4cbca06f7fd676c5eb12ee9/transformed/firebase-auth-23.2.1/AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:23.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4d98a9e7b4cbca06f7fd676c5eb12ee9/transformed/firebase-auth-23.2.1/AndroidManifest.xml:35:13-45:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:23.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4d98a9e7b4cbca06f7fd676c5eb12ee9/transformed/firebase-auth-23.2.1/AndroidManifest.xml:36:17-69
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/0165750a35ead6a759bdbf5c604984a6/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
-uses-library#androidx.window.extensions
-ADDED from [androidx.window:window:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/98090201f7907f85d639cdf9428b09f3/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
-	android:required
-		ADDED from [androidx.window:window:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/98090201f7907f85d639cdf9428b09f3/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+		ADDED from [com.google.firebase:firebase-auth:23.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4d98a9e7b4cbca06f7fd676c5eb12ee9/transformed/firebase-auth-23.2.1/AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:23.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4d98a9e7b4cbca06f7fd676c5eb12ee9/transformed/firebase-auth-23.2.1/AndroidManifest.xml:38:17-76
 	android:name
-		ADDED from [androidx.window:window:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/98090201f7907f85d639cdf9428b09f3/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
-uses-library#androidx.window.sidecar
-ADDED from [androidx.window:window:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/98090201f7907f85d639cdf9428b09f3/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
-	android:required
-		ADDED from [androidx.window:window:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/98090201f7907f85d639cdf9428b09f3/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+		ADDED from [com.google.firebase:firebase-auth:23.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4d98a9e7b4cbca06f7fd676c5eb12ee9/transformed/firebase-auth-23.2.1/AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:23.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4d98a9e7b4cbca06f7fd676c5eb12ee9/transformed/firebase-auth-23.2.1/AndroidManifest.xml:39:17-78
 	android:name
-		ADDED from [androidx.window:window:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/98090201f7907f85d639cdf9428b09f3/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/46985ca6f9415910f2d90154e706cdae/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
-	android:protectionLevel
-		ADDED from [androidx.core:core:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/46985ca6f9415910f2d90154e706cdae/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
-	android:name
-		ADDED from [androidx.core:core:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/46985ca6f9415910f2d90154e706cdae/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
-permission#com.example.apppractica2.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/46985ca6f9415910f2d90154e706cdae/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
-	android:protectionLevel
-		ADDED from [androidx.core:core:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/46985ca6f9415910f2d90154e706cdae/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
-	android:name
-		ADDED from [androidx.core:core:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/46985ca6f9415910f2d90154e706cdae/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
-uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/46985ca6f9415910f2d90154e706cdae/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
-	android:name
-		ADDED from [androidx.core:core:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/46985ca6f9415910f2d90154e706cdae/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
-uses-permission#com.example.apppractica2.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/46985ca6f9415910f2d90154e706cdae/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
-	android:name
-		ADDED from [androidx.core:core:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/46985ca6f9415910f2d90154e706cdae/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
-meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/ad87d32e6f605b7c3b5c71f610b427e2/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
-	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/ad87d32e6f605b7c3b5c71f610b427e2/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
-	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/allisono/.gradle/caches/8.11.1/transforms/ad87d32e6f605b7c3b5c71f610b427e2/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
-provider#com.squareup.picasso.PicassoProvider
-ADDED from [com.squareup.picasso:picasso:2.71828] /Users/allisono/.gradle/caches/8.11.1/transforms/f22e27a5d3e3e0d6cfd3d78ca118f18a/transformed/picasso-2.71828/AndroidManifest.xml:8:9-11:40
-	android:authorities
-		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/allisono/.gradle/caches/8.11.1/transforms/f22e27a5d3e3e0d6cfd3d78ca118f18a/transformed/picasso-2.71828/AndroidManifest.xml:10:13-72
+		ADDED from [com.google.firebase:firebase-auth:23.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4d98a9e7b4cbca06f7fd676c5eb12ee9/transformed/firebase-auth-23.2.1/AndroidManifest.xml:39:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:23.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4d98a9e7b4cbca06f7fd676c5eb12ee9/transformed/firebase-auth-23.2.1/AndroidManifest.xml:41:17-44:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:23.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4d98a9e7b4cbca06f7fd676c5eb12ee9/transformed/firebase-auth-23.2.1/AndroidManifest.xml:43:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:23.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4d98a9e7b4cbca06f7fd676c5eb12ee9/transformed/firebase-auth-23.2.1/AndroidManifest.xml:42:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:23.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4d98a9e7b4cbca06f7fd676c5eb12ee9/transformed/firebase-auth-23.2.1/AndroidManifest.xml:44:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:23.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4d98a9e7b4cbca06f7fd676c5eb12ee9/transformed/firebase-auth-23.2.1/AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:23.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4d98a9e7b4cbca06f7fd676c5eb12ee9/transformed/firebase-auth-23.2.1/AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:23.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4d98a9e7b4cbca06f7fd676c5eb12ee9/transformed/firebase-auth-23.2.1/AndroidManifest.xml:51:13-44
 	android:exported
-		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/allisono/.gradle/caches/8.11.1/transforms/f22e27a5d3e3e0d6cfd3d78ca118f18a/transformed/picasso-2.71828/AndroidManifest.xml:11:13-37
+		ADDED from [com.google.firebase:firebase-auth:23.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4d98a9e7b4cbca06f7fd676c5eb12ee9/transformed/firebase-auth-23.2.1/AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:23.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4d98a9e7b4cbca06f7fd676c5eb12ee9/transformed/firebase-auth-23.2.1/AndroidManifest.xml:52:13-72
 	android:name
-		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/allisono/.gradle/caches/8.11.1/transforms/f22e27a5d3e3e0d6cfd3d78ca118f18a/transformed/picasso-2.71828/AndroidManifest.xml:9:13-64
-meta-data#androidx.profileinstaller.ProfileInstallerInitializer
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/71ba0dcaee12382a28af0c5b3bd67062/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
-	android:value
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/71ba0dcaee12382a28af0c5b3bd67062/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
-	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/71ba0dcaee12382a28af0c5b3bd67062/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
-receiver#androidx.profileinstaller.ProfileInstallReceiver
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/71ba0dcaee12382a28af0c5b3bd67062/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
-	android:enabled
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/71ba0dcaee12382a28af0c5b3bd67062/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+		ADDED from [com.google.firebase:firebase-auth:23.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4d98a9e7b4cbca06f7fd676c5eb12ee9/transformed/firebase-auth-23.2.1/AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:23.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4d98a9e7b4cbca06f7fd676c5eb12ee9/transformed/firebase-auth-23.2.1/AndroidManifest.xml:53:13-63:29
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:23.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4d98a9e7b4cbca06f7fd676c5eb12ee9/transformed/firebase-auth-23.2.1/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/e1874505788cf892c6faaf19a70bd469/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/e1874505788cf892c6faaf19a70bd469/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/16fbfa0c2249503a663cc32e986d6536/transformed/firebase-common-21.0.0/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/16fbfa0c2249503a663cc32e986d6536/transformed/firebase-common-21.0.0/AndroidManifest.xml:30:9-38:19
 	android:exported
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/71ba0dcaee12382a28af0c5b3bd67062/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
-	android:permission
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/71ba0dcaee12382a28af0c5b3bd67062/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+		ADDED from [com.google.firebase:firebase-auth:23.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4d98a9e7b4cbca06f7fd676c5eb12ee9/transformed/firebase-auth-23.2.1/AndroidManifest.xml:68:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/16fbfa0c2249503a663cc32e986d6536/transformed/firebase-common-21.0.0/AndroidManifest.xml:34:13-32
 	android:directBootAware
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/71ba0dcaee12382a28af0c5b3bd67062/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/16fbfa0c2249503a663cc32e986d6536/transformed/firebase-common-21.0.0/AndroidManifest.xml:32:13-43
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/71ba0dcaee12382a28af0c5b3bd67062/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+		ADDED from [com.google.firebase:firebase-auth:23.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4d98a9e7b4cbca06f7fd676c5eb12ee9/transformed/firebase-auth-23.2.1/AndroidManifest.xml:67:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:23.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4d98a9e7b4cbca06f7fd676c5eb12ee9/transformed/firebase-auth-23.2.1/AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:23.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4d98a9e7b4cbca06f7fd676c5eb12ee9/transformed/firebase-auth-23.2.1/AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.2.1] /Users/allisono/.gradle/caches/8.11.1/transforms/4d98a9e7b4cbca06f7fd676c5eb12ee9/transformed/firebase-auth-23.2.1/AndroidManifest.xml:70:17-109
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:19.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/61988a2e658ed021f189642b3458dd1c/transformed/play-services-maps-19.2.0/AndroidManifest.xml:22:5-24:33
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:19.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/61988a2e658ed021f189642b3458dd1c/transformed/play-services-maps-19.2.0/AndroidManifest.xml:23:8-40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:19.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/61988a2e658ed021f189642b3458dd1c/transformed/play-services-maps-19.2.0/AndroidManifest.xml:24:8-31
+queries
+ADDED from [com.google.android.gms:play-services-maps:19.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/61988a2e658ed021f189642b3458dd1c/transformed/play-services-maps-19.2.0/AndroidManifest.xml:27:5-30:15
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:19.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/61988a2e658ed021f189642b3458dd1c/transformed/play-services-maps-19.2.0/AndroidManifest.xml:29:7-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:19.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/61988a2e658ed021f189642b3458dd1c/transformed/play-services-maps-19.2.0/AndroidManifest.xml:29:16-59
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:19.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/61988a2e658ed021f189642b3458dd1c/transformed/play-services-maps-19.2.0/AndroidManifest.xml:33:7-86
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:19.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/61988a2e658ed021f189642b3458dd1c/transformed/play-services-maps-19.2.0/AndroidManifest.xml:33:59-83
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:19.2.0] /Users/allisono/.gradle/caches/8.11.1/transforms/61988a2e658ed021f189642b3458dd1c/transformed/play-services-maps-19.2.0/AndroidManifest.xml:33:21-58
+service#androidx.credentials.playservices.CredentialProviderMetadataHolder
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/allisono/.gradle/caches/8.11.1/transforms/9bade732b8718ae8122a61a325bf83d5/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:24:9-32:19
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/allisono/.gradle/caches/8.11.1/transforms/9bade732b8718ae8122a61a325bf83d5/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:26:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/allisono/.gradle/caches/8.11.1/transforms/9bade732b8718ae8122a61a325bf83d5/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/allisono/.gradle/caches/8.11.1/transforms/9bade732b8718ae8122a61a325bf83d5/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:28:13-60
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/allisono/.gradle/caches/8.11.1/transforms/9bade732b8718ae8122a61a325bf83d5/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:25:13-94
+meta-data#androidx.credentials.CREDENTIAL_PROVIDER_KEY
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/allisono/.gradle/caches/8.11.1/transforms/9bade732b8718ae8122a61a325bf83d5/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:29:13-31:104
+	android:value
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/allisono/.gradle/caches/8.11.1/transforms/9bade732b8718ae8122a61a325bf83d5/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:31:17-101
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/allisono/.gradle/caches/8.11.1/transforms/9bade732b8718ae8122a61a325bf83d5/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:30:17-76
+activity#androidx.credentials.playservices.HiddenActivity
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/allisono/.gradle/caches/8.11.1/transforms/9bade732b8718ae8122a61a325bf83d5/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:34:9-41:20
+	android:fitsSystemWindows
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/allisono/.gradle/caches/8.11.1/transforms/9bade732b8718ae8122a61a325bf83d5/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:39:13-45
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/allisono/.gradle/caches/8.11.1/transforms/9bade732b8718ae8122a61a325bf83d5/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/allisono/.gradle/caches/8.11.1/transforms/9bade732b8718ae8122a61a325bf83d5/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:38:13-37
+	android:configChanges
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/allisono/.gradle/caches/8.11.1/transforms/9bade732b8718ae8122a61a325bf83d5/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:36:13-87
+	android:theme
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/allisono/.gradle/caches/8.11.1/transforms/9bade732b8718ae8122a61a325bf83d5/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:40:13-48
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/allisono/.gradle/caches/8.11.1/transforms/9bade732b8718ae8122a61a325bf83d5/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:35:13-76
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/allisono/.gradle/caches/8.11.1/transforms/f510143096bb9b25aebf824730b8e0f7/transformed/play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/allisono/.gradle/caches/8.11.1/transforms/f510143096bb9b25aebf824730b8e0f7/transformed/play-services-auth-20.7.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/allisono/.gradle/caches/8.11.1/transforms/f510143096bb9b25aebf824730b8e0f7/transformed/play-services-auth-20.7.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/allisono/.gradle/caches/8.11.1/transforms/f510143096bb9b25aebf824730b8e0f7/transformed/play-services-auth-20.7.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/allisono/.gradle/caches/8.11.1/transforms/f510143096bb9b25aebf824730b8e0f7/transformed/play-services-auth-20.7.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/allisono/.gradle/caches/8.11.1/transforms/f510143096bb9b25aebf824730b8e0f7/transformed/play-services-auth-20.7.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/allisono/.gradle/caches/8.11.1/transforms/f510143096bb9b25aebf824730b8e0f7/transformed/play-services-auth-20.7.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/allisono/.gradle/caches/8.11.1/transforms/f510143096bb9b25aebf824730b8e0f7/transformed/play-services-auth-20.7.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/allisono/.gradle/caches/8.11.1/transforms/f510143096bb9b25aebf824730b8e0f7/transformed/play-services-auth-20.7.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/allisono/.gradle/caches/8.11.1/transforms/f510143096bb9b25aebf824730b8e0f7/transformed/play-services-auth-20.7.0/AndroidManifest.xml:34:13-89
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [com.google.android.recaptcha:recaptcha:18.6.1] /Users/allisono/.gradle/caches/8.11.1/transforms/467429a5cad76d7a936fafb540e3d50f/transformed/recaptcha-18.6.1/AndroidManifest.xml:9:5-98
+	android:name
+		ADDED from [com.google.android.recaptcha:recaptcha:18.6.1] /Users/allisono/.gradle/caches/8.11.1/transforms/467429a5cad76d7a936fafb540e3d50f/transformed/recaptcha-18.6.1/AndroidManifest.xml:9:22-95
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/e1874505788cf892c6faaf19a70bd469/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/e1874505788cf892c6faaf19a70bd469/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/e1874505788cf892c6faaf19a70bd469/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/16fbfa0c2249503a663cc32e986d6536/transformed/firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/16fbfa0c2249503a663cc32e986d6536/transformed/firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/16fbfa0c2249503a663cc32e986d6536/transformed/firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/16fbfa0c2249503a663cc32e986d6536/transformed/firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/16fbfa0c2249503a663cc32e986d6536/transformed/firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/16fbfa0c2249503a663cc32e986d6536/transformed/firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/16fbfa0c2249503a663cc32e986d6536/transformed/firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/16fbfa0c2249503a663cc32e986d6536/transformed/firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/16fbfa0c2249503a663cc32e986d6536/transformed/firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/allisono/.gradle/caches/8.11.1/transforms/8ed707b0b7703482efe5a889416cbb51/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/allisono/.gradle/caches/8.11.1/transforms/8ed707b0b7703482efe5a889416cbb51/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/allisono/.gradle/caches/8.11.1/transforms/8ed707b0b7703482efe5a889416cbb51/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/allisono/.gradle/caches/8.11.1/transforms/8ed707b0b7703482efe5a889416cbb51/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/4f282c369c087540aadef54cdcb495d1/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.0] /Users/allisono/.gradle/caches/8.11.1/transforms/1ede64362e514849fc64fb9bc98e400c/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.0] /Users/allisono/.gradle/caches/8.11.1/transforms/1ede64362e514849fc64fb9bc98e400c/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/b8f504aae1bced29e617bcc608efeb2a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/b8f504aae1bced29e617bcc608efeb2a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/allisono/.gradle/caches/8.11.1/transforms/da043742b34701e3f06fd057e596b4c2/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/allisono/.gradle/caches/8.11.1/transforms/da043742b34701e3f06fd057e596b4c2/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/4f282c369c087540aadef54cdcb495d1/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/4f282c369c087540aadef54cdcb495d1/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/4f282c369c087540aadef54cdcb495d1/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/4f282c369c087540aadef54cdcb495d1/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/4f282c369c087540aadef54cdcb495d1/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/4f282c369c087540aadef54cdcb495d1/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/allisono/.gradle/caches/8.11.1/transforms/4f282c369c087540aadef54cdcb495d1/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/98437f7209d933c341f57696e134e1a8/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/98437f7209d933c341f57696e134e1a8/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/98437f7209d933c341f57696e134e1a8/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/98437f7209d933c341f57696e134e1a8/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/98437f7209d933c341f57696e134e1a8/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/allisono/.gradle/caches/8.11.1/transforms/98437f7209d933c341f57696e134e1a8/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/49bb58ab0f6487e68e4a5149719679cb/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/49bb58ab0f6487e68e4a5149719679cb/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/49bb58ab0f6487e68e4a5149719679cb/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+permission#com.example.apppractica2.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/49bb58ab0f6487e68e4a5149719679cb/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/49bb58ab0f6487e68e4a5149719679cb/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/49bb58ab0f6487e68e4a5149719679cb/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/49bb58ab0f6487e68e4a5149719679cb/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/49bb58ab0f6487e68e4a5149719679cb/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+uses-permission#com.example.apppractica2.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/49bb58ab0f6487e68e4a5149719679cb/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.15.0] /Users/allisono/.gradle/caches/8.11.1/transforms/49bb58ab0f6487e68e4a5149719679cb/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.9.0] /Users/allisono/.gradle/caches/8.11.1/transforms/1ede64362e514849fc64fb9bc98e400c/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.9.0] /Users/allisono/.gradle/caches/8.11.1/transforms/1ede64362e514849fc64fb9bc98e400c/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.9.0] /Users/allisono/.gradle/caches/8.11.1/transforms/1ede64362e514849fc64fb9bc98e400c/transformed/lifecycle-process-2.9.0/AndroidManifest.xml:30:17-78
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/c506415cdf61ec236b1ef932f12fa0c2/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/c506415cdf61ec236b1ef932f12fa0c2/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/c506415cdf61ec236b1ef932f12fa0c2/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /Users/allisono/.gradle/caches/8.11.1/transforms/068f054d0c2f00f07393df9d1489d9fb/transformed/picasso-2.71828/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/allisono/.gradle/caches/8.11.1/transforms/068f054d0c2f00f07393df9d1489d9fb/transformed/picasso-2.71828/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/allisono/.gradle/caches/8.11.1/transforms/068f054d0c2f00f07393df9d1489d9fb/transformed/picasso-2.71828/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/allisono/.gradle/caches/8.11.1/transforms/068f054d0c2f00f07393df9d1489d9fb/transformed/picasso-2.71828/AndroidManifest.xml:9:13-64
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/b8f504aae1bced29e617bcc608efeb2a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/b8f504aae1bced29e617bcc608efeb2a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/b8f504aae1bced29e617bcc608efeb2a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/b8f504aae1bced29e617bcc608efeb2a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/b8f504aae1bced29e617bcc608efeb2a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/b8f504aae1bced29e617bcc608efeb2a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/b8f504aae1bced29e617bcc608efeb2a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/b8f504aae1bced29e617bcc608efeb2a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/b8f504aae1bced29e617bcc608efeb2a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
 intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/71ba0dcaee12382a28af0c5b3bd67062/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/b8f504aae1bced29e617bcc608efeb2a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
 action#androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/71ba0dcaee12382a28af0c5b3bd67062/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/b8f504aae1bced29e617bcc608efeb2a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/71ba0dcaee12382a28af0c5b3bd67062/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/b8f504aae1bced29e617bcc608efeb2a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
 intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/71ba0dcaee12382a28af0c5b3bd67062/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/b8f504aae1bced29e617bcc608efeb2a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
 action#androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/71ba0dcaee12382a28af0c5b3bd67062/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/b8f504aae1bced29e617bcc608efeb2a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/71ba0dcaee12382a28af0c5b3bd67062/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/b8f504aae1bced29e617bcc608efeb2a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
 intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/71ba0dcaee12382a28af0c5b3bd67062/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/b8f504aae1bced29e617bcc608efeb2a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
 action#androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/71ba0dcaee12382a28af0c5b3bd67062/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/b8f504aae1bced29e617bcc608efeb2a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/71ba0dcaee12382a28af0c5b3bd67062/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/b8f504aae1bced29e617bcc608efeb2a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
 intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/71ba0dcaee12382a28af0c5b3bd67062/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/b8f504aae1bced29e617bcc608efeb2a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
 action#androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/71ba0dcaee12382a28af0c5b3bd67062/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/b8f504aae1bced29e617bcc608efeb2a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/71ba0dcaee12382a28af0c5b3bd67062/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/allisono/.gradle/caches/8.11.1/transforms/b8f504aae1bced29e617bcc608efeb2a/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+activity#com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+ADDED from [com.google.android.play:core-common:2.0.3] /Users/allisono/.gradle/caches/8.11.1/transforms/19fcca64f01b3c83acdead41bd5a3124/transformed/core-common-2.0.3/AndroidManifest.xml:14:9-18:65
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core-common:2.0.3] /Users/allisono/.gradle/caches/8.11.1/transforms/19fcca64f01b3c83acdead41bd5a3124/transformed/core-common-2.0.3/AndroidManifest.xml:17:13-42
+	android:exported
+		ADDED from [com.google.android.play:core-common:2.0.3] /Users/allisono/.gradle/caches/8.11.1/transforms/19fcca64f01b3c83acdead41bd5a3124/transformed/core-common-2.0.3/AndroidManifest.xml:16:13-37
+	android:theme
+		ADDED from [com.google.android.play:core-common:2.0.3] /Users/allisono/.gradle/caches/8.11.1/transforms/19fcca64f01b3c83acdead41bd5a3124/transformed/core-common-2.0.3/AndroidManifest.xml:18:13-62
+	android:name
+		ADDED from [com.google.android.play:core-common:2.0.3] /Users/allisono/.gradle/caches/8.11.1/transforms/19fcca64f01b3c83acdead41bd5a3124/transformed/core-common-2.0.3/AndroidManifest.xml:15:13-93

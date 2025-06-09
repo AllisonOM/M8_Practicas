@@ -7,10 +7,35 @@
     android:layout_height="match_parent"
     tools:context=".ui.MainActivity">
 
+    <!-- Encabezado con ícono y fondo de color -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/header_layout"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@color/charger"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:id="@+id/btnlogout"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_logout"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:contentDescription="@string/logout"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
     <RelativeLayout
         android:id="@+id/internetLayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/header_layout"
+        app:layout_constraintBottom_toBottomOf="parent">
 
         <FrameLayout
             android:id="@+id/fragment_container"
@@ -21,16 +46,19 @@
     <RelativeLayout
         android:id="@+id/noInternetLayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         android:background="@color/background_section"
-        android:visibility="gone">
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/header_layout"
+        app:layout_constraintBottom_toBottomOf="parent">
 
         <ImageView
             android:id="@+id/no_internet_image"
             android:layout_width="wrap_content"
             android:layout_height="300dp"
             android:layout_marginTop="128dp"
-            android:src="@drawable/no_internet" />
+            android:src="@drawable/no_internet"
+            android:contentDescription="@string/no_internet"/>
 
         <TextView
             android:id="@+id/no_internet_heading"
