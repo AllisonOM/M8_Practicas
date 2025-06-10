@@ -85,7 +85,7 @@ class AutosListFragment : Fragment() {
 
             } catch (e: Exception) {
                 Log.e("AutosListFragment", getString(R.string.log_loading_error), e)
-                Toast.makeText(requireContext(), R.string.error_loading_data, Toast.LENGTH_SHORT).show()
+                // Toast.makeText(requireContext(), R.string.error_loading_data, Toast.LENGTH_SHORT).show()
                 binding.noInternetLayout.visibility = View.VISIBLE
 
             } finally {
